@@ -6,6 +6,7 @@
     <tr>
         <th style="padding: 10px;">Dataset</th>
         <th style="padding: 10px;">Hugging Face</th>
+        <th style="padding: 10px;">Tableau</th>
     </tr>
     <tr>
         <td style="padding: 10px;">
@@ -16,6 +17,11 @@
         <td style="padding: 10px;">
             <a href="https://huggingface.co/spaces/amariayudha/Predictix">
                 <img src="https://img.shields.io/badge/Demo-Hugging%20Face-blue" alt="Hugging Face Demo">
+            </a>
+        </td>
+        <td style="padding: 10px;">
+            <a href="https://public.tableau.com/app/profile/yuliana.theresa/viz/FinalProject_17271749155140/Dashboard1?publish=yes">
+                <img src="https://img.shields.io/badge/Dashboard-Tableau-green" alt="Tableau Dashboard">
             </a>
         </td>
     </tr>
@@ -210,6 +216,7 @@ This is the comparison of the performance of the model with other models used in
 - Dataset provided by [Florist Customer Churn](https://huggingface.co/datasets/iammkb2002/florist_customer_churn)
 - BERT implementation based on [Hugging Face Transformers](https://github.com/huggingface/transformers)
 - Download the fine-tuned model from [Here](https://drive.google.com/drive/folders/1U7vDgiHhgMuuDl9noB3ESJm0yn0x2uPX?usp=sharing)
+- Dashboard Tableau from [Here](https://public.tableau.com/app/profile/yuliana.theresa/viz/FinalProject_17271749155140/Dashboard1?publish=yes)
 
 ## Citation
 
