@@ -38,6 +38,7 @@ In today's competitive market, understanding customer sentiment and predicting c
 1. Understand customer sentiment through their feedback
 2. Build a model to classify sentiment in customer reviews
 3. Use sentiment analysis results, combined with other features, to predict customer churn
+4. Use SVC to predict customer churn.
 
 ### Proposed Solution 💡
 
@@ -63,6 +64,7 @@ This approach provides accurate and timely insights into customer sentiments and
 - Pandas
 - NumPy
 - Scikit-learn
+- etc.
 
 To install Predictix:
 ```bash
@@ -116,6 +118,19 @@ Predictix uses a fine-tuned BERT model for sentiment analysis. The architecture 
 - Custom classification head
 - Fine-tuning on florist-specific dataset
 
+After conducting sentiment analysis using BERT, we employ cross-validation to identify the optimal classification model for the florist-specific dataset. The architecture includes the following base models:
+
+- Support Vector Classifier (SVC)
+- Decision Trees
+- Random Forest
+- K-Nearest Neighbors (KNN)
+- Naive Bayes
+- XGBoost
+- Logistic Regression
+
+To further enhance performance, we fine-tune the SVC model specifically for the florist-specific dataset.
+
+
 ## Performance
 
 Our BERT-based model achieves:
@@ -131,6 +146,24 @@ This is the comparison of the performance of the model with other models used in
 | Random Forest  | 92%            | 91%                 | 87%           |
 | LSTM           | 92%            | 92%                 | 89%           |
 | BERT           | 92%            | 94%                 | 89%           |
+
+Our fine-tune SVC model achives:
+- Training Recall : 93%
+- Test Recall : 89%
+
+This is the comparison of the performance of the model with other models used in the cross-validation for this project:
+
+| Model | Recall - Mean - Cross Validation | Recall - std - Cross Validation | Recall - Range of Test Set |
+|---|---|---|---|
+| svm_model | 0.928 | 0.02 | 0.908 - 0.948 |
+| logistic_regression_model | 0.928 | 0.02 | 0.908 - 0.948 |
+| knn_model | 0.925 | 0.016 | 0.91 - 0.941 |
+| nb_model | 0.925 | 0.022 | 0.903 - 0.947 |
+| rf_model | 0.918 | 0.022 | 0.896 - 0.939 |
+| xgb_model | 0.918 | 0.017 | 0.901 - 0.934 |
+| dt_model | 0.905 | 0.027 | 0.879 - 0.932 |
+
+
 
 ## Acknowledgements
 
