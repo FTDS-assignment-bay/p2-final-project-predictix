@@ -114,9 +114,7 @@ For overall classification churn, you can use this following code :
 # Import resources
 import pandas as pd
 import pickle
-import torch
 import numpy as np
-from transformers import BertTokenizer, BertForSequenceClassification
 
 with open('model.pkl', 'rb') as file_1:
     classification = pickle.load(file_1)
@@ -132,39 +130,6 @@ data = {
     "feedback": ["Reliable and affordable", "Delivery issues multiple times"],
     "topic":["product quality","delivery issues"]
 }
-
-# Specify the directory where the model and tokenizer are saved
-model_dir = './saved_model/'
-
-# Load the tokenizer and model
-tokenizer = BertTokenizer.from_pretrained(model_dir)
-model = BertForSequenceClassification.from_pretrained(model_dir)
-
-# Set the model to evaluation mode
-model.eval()
-
-# Move the model to the appropriate device
-device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-model.to(device)
-
-# Tokenize and encode the texts
-inputs = tokenizer(
-    data['feedback'],
-    padding=True,
-    truncation=True,
-    max_length=128,
-    return_tensors='pt'
-)
-
-# Move inputs to the same device as the model
-inputs = {key: val.to(device) for key, val in inputs.items()}
-
-# Perform inference
-with torch.no_grad():
-    outputs = model(**inputs)
-    logits = outputs.logits
-    predictions = torch.argmax(logits, dim=-1)
-
 
 # Map predictions to labels
 label_map = {0: 'Negative', 1: 'Positive'}
@@ -230,13 +195,13 @@ This is the comparison of the performance of the model with other models used in
 
 | Model | Recall - Mean - Cross Validation | Recall - std - Cross Validation | Recall - Range of Test Set |
 |---|---|---|---|
-| svm_model | 0.928 | 0.02 | 0.908 - 0.948 |
-| logistic_regression_model | 0.928 | 0.02 | 0.908 - 0.948 |
-| knn_model | 0.925 | 0.016 | 0.91 - 0.941 |
-| nb_model | 0.925 | 0.022 | 0.903 - 0.947 |
-| rf_model | 0.918 | 0.022 | 0.896 - 0.939 |
-| xgb_model | 0.918 | 0.017 | 0.901 - 0.934 |
-| dt_model | 0.905 | 0.027 | 0.879 - 0.932 |
+| Support Vector Machine | 92.80% | 2.00% | 90.80% - 94.80% |
+| Logistic Regression | 92.80% | 2.00% | 90.80% - 94.80% |
+| K-Nearest Neighbors | 92.50% | 1.60% | 91.00% - 94.10% |
+| Naive Bayes | 92.50% | 2.20% | 90.30% - 94.70% |
+| Random Forest | 91.80% | 2.20% | 89.60% - 93.90% |
+| XGBoost | 91.80% | 1.70% | 90.10% - 93.40% |
+| Decision Tree | 90.50% | 2.70% | 87.90% - 93.20% |
 
 
 
@@ -244,7 +209,7 @@ This is the comparison of the performance of the model with other models used in
 
 - Dataset provided by [Florist Customer Churn](https://huggingface.co/datasets/iammkb2002/florist_customer_churn)
 - BERT implementation based on [Hugging Face Transformers](https://github.com/huggingface/transformers)
-- Download the fine-tuned model from [here](https://drive.google.com/drive/folders/1U7vDgiHhgMuuDl9noB3ESJm0yn0x2uPX?usp=sharing)
+- Download the fine-tuned model from [Here](https://drive.google.com/drive/folders/1U7vDgiHhgMuuDl9noB3ESJm0yn0x2uPX?usp=sharing)
 
 ## Citation
 
