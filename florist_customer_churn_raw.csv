@@ -1,0 +1,1001 @@
+customer_id,churn,tenure,monthly_charges,total_charges,contract,payment_method,feedback,sentiment,topic
+CUST001,True,12,30.0,360.0,one year,credit card,Love the variety of flowers!,positive,bouquet preferences
+CUST002,True,4,35.5,142.0,month-to-month,electronic check,Delivery was often late,negative,delivery issues
+CUST003,False,20,29.99,599.8,two year,bank transfer,Great service and quality,positive,general feedback
+CUST004,True,2,32.0,64.0,month-to-month,mailed check,Not enough variety,negative,bouquet preferences
+CUST005,True,15,28.5,427.5,one year,credit card,Beautiful arrangements every time,positive,general feedback
+CUST006,True,3,30.0,90.0,month-to-month,electronic check,Prices are too high,negative,price complaints
+CUST007,False,18,27.99,503.82,one year,bank transfer,Always on time and fresh,positive,delivery quality
+CUST008,True,5,31.0,155.0,month-to-month,credit card,Flowers didn't last long,negative,product quality
+CUST009,False,22,26.5,583.0,two year,mailed check,I recommend to all my friends,positive,general feedback
+CUST010,True,1,34.99,34.99,month-to-month,electronic check,,negative,customer service
+CUST011,False,30,25.0,750.0,two year,bank transfer,Exceptional quality every month,positive,product quality
+CUST012,True,6,33.0,198.0,month-to-month,credit card,Not satisfied with the selection,negative,bouquet preferences
+CUST013,False,14,29.5,413.0,one year,mailed check,Reliable and worth it,positive,general feedback
+CUST014,True,8,35.0,280.0,month-to-month,electronic check,Flowers wilted quickly,negative,product quality
+CUST015,False,25,27.0,675.0,two year,bank transfer,So happy with the bouquets,positive,general feedback
+CUST016,True,9,31.5,283.5,month-to-month,credit card,Didn't like the arrangements,negative,bouquet preferences
+CUST017,False,16,28.0,448.0,one year,mailed check,Always fresh and beautiful,positive,product quality
+CUST018,True,7,30.5,213.5,month-to-month,electronic check,Too expensive for the quality,negative,price complaints
+CUST019,False,19,26.99,512.81,one year,bank transfer,Great variety each month,positive,bouquet preferences
+CUST020,True,10,32.0,320.0,month-to-month,credit card,Delivery issues multiple times,negative,delivery issues
+CUST021,False,27,25.5,688.5,two year,mailed check,Flowers are always stunning,positive,product quality
+CUST022,True,11,33.5,368.5,month-to-month,electronic check,Not worth the price,negative,price complaints
+CUST023,False,17,27.5,467.5,one year,bank transfer,Happy with the service,positive,general feedback
+CUST024,True,3,29.0,87.0,month-to-month,mailed check,Quality has gone down,negative,product quality
+CUST025,False,21,26.0,546.0,two year,credit card,Very satisfied with my subscription,positive,general feedback
+CUST026,True,2,31.5,63.0,month-to-month,electronic check,Poor delivery service,negative,delivery issues
+CUST027,False,12,28.0,336.0,one year,bank transfer,Lovely and fresh bouquets,positive,product quality
+CUST028,True,6,32.0,192.0,month-to-month,credit card,Unresponsive customer service,negative,customer service
+CUST029,False,23,25.99,597.77,two year,mailed check,Great value for money,positive,price appreciation
+CUST030,True,5,34.0,170.0,month-to-month,electronic check,Selection is not good,negative,bouquet preferences
+CUST031,False,13,29.0,377.0,one year,credit card,Always a pleasant surprise,positive,general feedback
+CUST032,False,7,30.5,213.5,month-to-month,mailed check,Overpriced for what you get,negative,price complaints
+CUST033,False,26,27.0,702.0,two year,bank transfer,The quality is consistently high,positive,product quality
+CUST034,False,8,33.0,264.0,month-to-month,credit card,Not happy with the flower choices,negative,bouquet preferences
+CUST035,False,24,26.5,636.0,two year,electronic check,Love the convenience and quality,positive,general feedback
+CUST036,True,4,31.0,124.0,month-to-month,mailed check,Delivery was unreliable,negative,delivery issues
+CUST037,True,15,28.5,427.5,one year,bank transfer,Flowers are gorgeous every time,positive,product quality
+CUST038,True,1,35.0,35.0,month-to-month,credit card,Not impressed with the service,negative,customer service
+CUST039,True,29,25.0,725.0,two year,electronic check,So happy I found this service,positive,general feedback
+CUST040,False,9,34.5,310.5,month-to-month,mailed check,Expected better quality,negative,product quality
+CUST041,False,18,27.99,503.82,one year,bank transfer,Consistently amazing bouquets,positive,general feedback
+CUST042,False,6,30.0,180.0,month-to-month,credit card,Too expensive for the offer,negative,price complaints
+CUST043,False,20,27.5,550.0,two year,mailed check,Love the bouquet designs,positive,bouquet preferences
+CUST044,False,3,29.0,87.0,month-to-month,electronic check,Delivery delays were frustrating,negative,delivery issues
+CUST045,False,14,28.5,399.0,one year,bank transfer,Always a joy to receive,positive,general feedback
+CUST046,False,2,32.5,65.0,month-to-month,credit card,Flowers did not meet expectations,negative,product quality
+CUST047,False,17,26.99,458.83,one year,electronic check,Subscription is a great gift idea,positive,general feedback
+CUST048,False,7,31.0,217.0,month-to-month,mailed check,Not satisfied with the arrangements,negative,bouquet preferences
+CUST049,True,22,26.0,572.0,two year,bank transfer,Very reliable and high quality,positive,product quality
+CUST050,False,8,33.0,264.0,month-to-month,credit card,Service not as expected,negative,customer service
+CUST051,False,11,28.5,313.5,one year,credit card,Always pleased with the bouquets,positive,general feedback
+CUST052,False,6,34.0,204.0,month-to-month,electronic check,Subpar flower quality,negative,product quality
+CUST053,False,19,27.0,513.0,two year,bank transfer,Best subscription I've ever had,positive,general feedback
+CUST054,False,1,35.5,35.5,month-to-month,mailed check,Unsatisfactory delivery service,negative,delivery issues
+CUST055,False,24,26.99,647.76,one year,credit card,Flowers bring joy every month,positive,general feedback
+CUST056,False,3,30.0,90.0,month-to-month,electronic check,Too costly for the quality provided,negative,price complaints
+CUST057,False,16,28.0,448.0,two year,bank transfer,Exceptional service and products,positive,general feedback
+CUST058,False,7,32.0,224.0,month-to-month,mailed check,Flowers did not look fresh,negative,product quality
+CUST059,False,20,27.5,550.0,one year,credit card,Consistent quality every time,positive,product quality
+CUST060,True,10,33.5,335.0,month-to-month,electronic check,Unreliable delivery times,negative,delivery issues
+CUST061,False,25,25.0,625.0,two year,bank transfer,Great customer service,positive,customer service
+CUST062,True,2,31.0,62.0,month-to-month,mailed check,Selection is limited,negative,bouquet preferences
+CUST063,False,13,29.5,383.5,one year,credit card,Flowers always arrive in perfect condition,positive,delivery quality
+CUST064,True,8,35.0,280.0,month-to-month,electronic check,Expensive compared to others,negative,price complaints
+CUST065,False,26,27.0,702.0,two year,bank transfer,Subscription is worth every penny,positive,price appreciation
+CUST066,True,9,34.5,310.5,month-to-month,mailed check,Quality has decreased recently,negative,product quality
+CUST067,False,12,28.5,342.0,one year,credit card,Very happy with the flower variety,positive,bouquet preferences
+CUST068,True,4,30.0,120.0,month-to-month,electronic check,Not enough value for the price,negative,price complaints
+CUST069,False,17,27.5,467.5,two year,bank transfer,Always satisfied with my order,positive,general feedback
+CUST070,True,5,31.0,155.0,month-to-month,mailed check,Delivery service needs improvement,negative,delivery issues
+CUST071,False,21,26.5,556.5,one year,credit card,Excellent bouquet designs,positive,bouquet preferences
+CUST072,True,3,29.0,87.0,month-to-month,electronic check,Poor customer support,negative,customer service
+CUST073,False,14,29.0,406.0,two year,bank transfer,High-quality flowers every time,positive,product quality
+CUST074,True,6,32.0,192.0,month-to-month,mailed check,Too pricey for what's offered,negative,price complaints
+CUST075,False,23,26.0,598.0,one year,credit card,Always a pleasant surprise,positive,general feedback
+CUST076,True,7,33.5,234.5,month-to-month,electronic check,Flowers wilted too quickly,negative,product quality
+CUST077,False,18,28.0,504.0,two year,bank transfer,Flowers are always vibrant,positive,product quality
+CUST078,True,8,31.0,248.0,month-to-month,mailed check,Expected better customer service,negative,customer service
+CUST079,False,15,27.99,419.85,one year,credit card,Delightful bouquets every month,positive,bouquet preferences
+CUST080,True,9,34.0,306.0,month-to-month,electronic check,Flowers not as advertised,negative,product quality
+CUST081,False,10,30.5,305.0,one year,mailed check,Consistently great service,positive,general feedback
+CUST082,True,1,35.5,35.5,month-to-month,bank transfer,Not satisfied with flower quality,negative,product quality
+CUST083,False,22,25.5,561.0,two year,credit card,Excellent value for money,positive,price appreciation
+CUST084,True,11,32.0,352.0,month-to-month,mailed check,Delivery was inconsistent,negative,delivery issues
+CUST085,False,20,27.0,540.0,one year,bank transfer,Love the unique arrangements,positive,bouquet preferences
+CUST086,True,2,30.0,60.0,month-to-month,electronic check,Too expensive for the bouquet size,negative,price complaints
+CUST087,False,19,26.99,512.81,two year,credit card,Happy with every delivery,positive,delivery quality
+CUST088,True,12,34.5,414.0,month-to-month,mailed check,Customer service was lacking,negative,customer service
+CUST089,False,13,29.0,377.0,one year,bank transfer,Flowers always exceed expectations,positive,product quality
+CUST090,True,3,31.0,93.0,month-to-month,credit card,Not impressed with the selection,negative,bouquet preferences
+CUST091,False,24,26.5,636.0,two year,electronic check,Always look forward to my delivery,positive,general feedback
+CUST092,True,4,30.5,122.0,month-to-month,mailed check,Prices are too high for the quality,negative,price complaints
+CUST093,False,17,27.5,467.5,one year,bank transfer,The best flower subscription service,positive,general feedback
+CUST094,True,5,32.0,160.0,month-to-month,credit card,Flowers didn't last as expected,negative,product quality
+CUST095,False,21,26.0,546.0,two year,electronic check,Extremely satisfied with my orders,positive,general feedback
+CUST096,True,6,33.5,201.0,month-to-month,mailed check,Delivery timing is unpredictable,negative,delivery issues
+CUST097,False,14,28.5,399.0,one year,bank transfer,Amazing quality and service,positive,general feedback
+CUST098,True,7,30.0,210.0,month-to-month,electronic check,Expected more variety in bouquets,negative,bouquet preferences
+CUST099,False,18,27.99,503.82,two year,credit card,Very happy with the subscription,positive,general feedback
+CUST100,True,8,31.0,248.0,month-to-month,mailed check,Customer service could be better,negative,customer service
+CUST101,False,9,30.5,274.5,one year,credit card,Love the monthly surprises,positive,general feedback
+CUST102,True,1,35.0,35.0,month-to-month,electronic check,Disappointed with the flower quality,negative,product quality
+CUST103,False,22,26.0,572.0,two year,bank transfer,Exceptional customer service,positive,customer service
+CUST104,True,2,31.0,62.0,month-to-month,mailed check,Not worth the monthly cost,negative,price complaints
+CUST105,False,13,29.0,377.0,one year,credit card,Always satisfied with the bouquets,positive,bouquet preferences
+CUST106,True,3,30.5,91.5,month-to-month,electronic check,Delivery times were inconsistent,negative,delivery issues
+CUST107,False,24,26.5,636.0,two year,bank transfer,Quality has always been top-notch,positive,product quality
+CUST108,True,7,33.5,234.5,month-to-month,mailed check,Customer service was unhelpful,negative,customer service
+CUST109,False,18,27.99,503.82,one year,credit card,Each bouquet is a masterpiece,positive,bouquet preferences
+CUST110,True,8,31.0,248.0,month-to-month,electronic check,Prices are too high for the offering,negative,price complaints
+CUST111,False,15,28.5,427.5,one year,bank transfer,Flowers are always fresh and beautiful,positive,product quality
+CUST112,True,4,30.0,120.0,month-to-month,mailed check,Selection didn't meet my expectations,negative,bouquet preferences
+CUST113,False,20,27.5,550.0,two year,credit card,Reliable delivery every month,positive,delivery quality
+CUST114,True,6,32.0,192.0,month-to-month,electronic check,Not satisfied with the bouquet variety,negative,bouquet preferences
+CUST115,False,11,28.5,313.5,one year,bank transfer,Highly recommend this subscription,positive,general feedback
+CUST116,True,5,34.0,170.0,month-to-month,mailed check,Flowers wilted quickly,negative,product quality
+CUST117,False,17,27.0,459.0,two year,credit card,Very happy with the flower quality,positive,product quality
+CUST118,True,9,33.5,301.5,month-to-month,electronic check,Expensive compared to quality received,negative,price complaints
+CUST119,False,10,30.0,300.0,one year,bank transfer,Always a delightful experience,positive,general feedback
+CUST120,True,3,29.5,88.5,month-to-month,mailed check,Delivery service was poor,negative,delivery issues
+CUST121,False,21,26.5,556.5,two year,credit card,Impressed with the variety,positive,bouquet preferences
+CUST122,True,1,35.5,35.5,month-to-month,electronic check,Not happy with the overall service,negative,customer service
+CUST123,False,14,29.0,406.0,one year,bank transfer,The bouquets are always stunning,positive,product quality
+CUST124,True,2,31.0,62.0,month-to-month,mailed check,Too costly for the bouquet size,negative,price complaints
+CUST125,False,23,26.0,598.0,two year,electronic check,Subscription is a great value,positive,price appreciation
+CUST126,True,7,32.0,224.0,month-to-month,credit card,Unsatisfied with the flower freshness,negative,product quality
+CUST127,False,19,28.0,532.0,one year,bank transfer,Flowers always exceed my expectations,positive,product quality
+CUST128,True,8,30.5,244.0,month-to-month,mailed check,Expected more for the price,negative,price complaints
+CUST129,False,16,27.99,447.84,one year,credit card,Very reliable subscription service,positive,general feedback
+CUST130,True,4,34.0,136.0,month-to-month,electronic check,Not enough flower variety,negative,bouquet preferences
+CUST131,False,25,25.0,625.0,two year,bank transfer,Consistently excellent bouquets,positive,bouquet preferences
+CUST132,True,6,31.0,186.0,month-to-month,mailed check,Delivery was often delayed,negative,delivery issues
+CUST133,False,12,29.5,354.0,one year,credit card,Happy with every delivery,positive,delivery quality
+CUST134,True,10,33.5,335.0,month-to-month,electronic check,Quality not as expected,negative,product quality
+CUST135,False,13,28.0,364.0,one year,bank transfer,Subscription is a lovely treat,positive,general feedback
+CUST136,True,3,30.0,90.0,month-to-month,mailed check,,negative,customer service
+CUST137,False,22,26.5,583.0,two year,credit card,Great customer care and products,positive,customer service
+CUST138,True,5,32.0,160.0,month-to-month,electronic check,Too expensive for the quality,negative,price complaints
+CUST139,False,17,27.0,459.0,one year,bank transfer,High-quality flowers every month,positive,product quality
+CUST140,True,7,31.0,217.0,month-to-month,mailed check,Flower freshness was disappointing,negative,product quality
+CUST141,False,20,27.5,550.0,two year,credit card,Always impressed with the bouquets,positive,bouquet preferences
+CUST142,True,8,34.0,272.0,month-to-month,electronic check,Not worth the monthly fee,negative,price complaints
+CUST143,False,11,28.5,313.5,one year,mailed check,Consistently great flower quality,positive,product quality
+CUST144,True,9,33.5,301.5,month-to-month,bank transfer,Service didn't meet expectations,negative,customer service
+CUST145,False,15,30.0,450.0,one year,credit card,Flowers always arrive in perfect condition,positive,delivery quality
+CUST146,True,2,29.0,58.0,month-to-month,mailed check,Prices are too high for the offering,negative,price complaints
+CUST147,False,24,26.99,647.76,two year,electronic check,Love the surprise each month,positive,general feedback
+CUST148,True,6,32.5,195.0,month-to-month,credit card,Delivery was unreliable,negative,delivery issues
+CUST149,False,18,28.0,504.0,one year,bank transfer,Exceptional variety and quality,positive,bouquet preferences
+CUST150,True,3,31.0,93.0,month-to-month,electronic check,Customer support was lacking,negative,customer service
+CUST151,False,21,26.5,556.5,two year,mailed check,Always a beautiful selection,positive,bouquet preferences
+CUST152,True,1,35.5,35.5,month-to-month,credit card,Not impressed with the flower quality,negative,product quality
+CUST153,False,14,29.0,406.0,one year,bank transfer,Subscription brings joy every month,positive,general feedback
+CUST154,True,2,31.0,62.0,month-to-month,electronic check,Too expensive for what's offered,negative,price complaints
+CUST155,False,23,26.0,598.0,two year,credit card,Consistently high-quality flowers,positive,product quality
+CUST156,True,3,30.5,91.5,month-to-month,mailed check,Disappointed with the bouquet variety,negative,bouquet preferences
+CUST157,False,19,28.0,532.0,one year,electronic check,Delightful bouquets every time,positive,bouquet preferences
+CUST158,True,4,34.0,136.0,month-to-month,bank transfer,Delivery was often late,negative,delivery issues
+CUST159,False,16,27.99,447.84,one year,credit card,Love the surprise each month,positive,general feedback
+CUST160,True,5,32.0,160.0,month-to-month,electronic check,Expected better flower quality,negative,product quality
+CUST161,False,20,27.5,550.0,two year,mailed check,Great service and flower quality,positive,general feedback
+CUST162,True,6,31.0,186.0,month-to-month,bank transfer,Not satisfied with the delivery service,negative,delivery issues
+CUST163,False,25,25.0,625.0,one year,credit card,Flowers are stunning every time,positive,product quality
+CUST164,True,7,33.5,234.5,month-to-month,mailed check,Too pricey for the bouquet size,negative,price complaints
+CUST165,False,11,28.5,313.5,two year,bank transfer,Very pleased with the subscription,positive,general feedback
+CUST166,True,8,30.0,240.0,month-to-month,credit card,Flowers didn't meet expectations,negative,product quality
+CUST167,False,13,29.5,383.5,one year,electronic check,Exceptional value for money,positive,price appreciation
+CUST168,True,9,34.5,310.5,month-to-month,bank transfer,Quality has decreased over time,negative,product quality
+CUST169,False,10,30.5,305.0,two year,mailed check,Flowers are always fresh,positive,product quality
+CUST170,True,2,35.0,70.0,month-to-month,credit card,Not happy with the delivery timing,negative,delivery issues
+CUST171,False,12,29.0,348.0,one year,bank transfer,Always look forward to my delivery,positive,general feedback
+CUST172,True,3,30.0,90.0,month-to-month,electronic check,Expensive for the quality offered,negative,price complaints
+CUST173,False,22,26.5,583.0,two year,credit card,Happy with every bouquet,positive,product quality
+CUST174,True,4,31.0,124.0,month-to-month,mailed check,Unsatisfied with the flower choices,negative,bouquet preferences
+CUST175,False,17,27.0,459.0,one year,bank transfer,Flowers always exceed my expectations,positive,product quality
+CUST176,True,5,32.5,162.5,month-to-month,credit card,Delivery service needs improvement,negative,delivery issues
+CUST177,False,18,28.0,504.0,two year,electronic check,Great quality and service,positive,general feedback
+CUST178,True,6,33.0,198.0,month-to-month,bank transfer,Not enough variety in bouquets,negative,bouquet preferences
+CUST179,False,14,29.5,413.0,one year,mailed check,Consistently impressed with the quality,positive,product quality
+CUST180,True,7,30.5,213.5,month-to-month,credit card,Flowers did not last long,negative,product quality
+CUST181,False,20,27.5,550.0,two year,electronic check,Always a pleasant surprise,positive,general feedback
+CUST182,True,8,31.0,248.0,month-to-month,mailed check,Expensive for the bouquet size,negative,price complaints
+CUST183,False,11,28.5,313.5,one year,bank transfer,Highly satisfied with the service,positive,general feedback
+CUST184,True,9,34.0,306.0,month-to-month,credit card,Quality not as good as expected,negative,product quality
+CUST185,False,12,29.0,348.0,two year,electronic check,Love the variety each month,positive,bouquet preferences
+CUST186,True,3,30.0,90.0,month-to-month,mailed check,Disappointed with the customer service,negative,customer service
+CUST187,False,15,27.99,419.85,one year,credit card,Flowers are always top quality,positive,product quality
+CUST188,True,4,32.0,128.0,month-to-month,bank transfer,Prices are too high for the quality,negative,price complaints
+CUST189,False,16,28.0,448.0,two year,mailed check,Subscription is worth every penny,positive,price appreciation
+CUST190,True,5,33.5,167.5,month-to-month,credit card,Not satisfied with the flower freshness,negative,product quality
+CUST191,False,21,26.5,556.5,one year,bank transfer,Excellent variety and freshness,positive,bouquet preferences
+CUST192,True,6,30.5,183.0,month-to-month,mailed check,Delivery was inconsistent,negative,delivery issues
+CUST193,False,17,27.0,459.0,two year,credit card,Happy with the bouquet designs,positive,bouquet preferences
+CUST194,True,7,31.0,217.0,month-to-month,electronic check,Expected more variety,negative,bouquet preferences
+CUST195,False,18,28.5,513.0,one year,bank transfer,Great customer service,positive,customer service
+CUST196,True,8,34.5,276.0,month-to-month,mailed check,Too expensive for the offering,negative,price complaints
+CUST197,False,19,27.5,522.5,two year,credit card,Consistently happy with my orders,positive,general feedback
+CUST198,True,9,30.0,270.0,month-to-month,bank transfer,Quality not as advertised,negative,product quality
+CUST199,False,10,29.5,295.0,one year,mailed check,Subscription brings happiness,positive,general feedback
+CUST200,True,2,35.0,70.0,month-to-month,credit card,Not happy with the service,negative,customer service
+CUST201,False,13,29.0,377.0,one year,bank transfer,Always a delightful surprise,positive,general feedback
+CUST202,True,3,30.5,91.5,month-to-month,credit card,Quality has decreased recently,negative,product quality
+CUST203,False,22,26.5,583.0,two year,mailed check,Highly recommend for flower lovers,positive,general feedback
+CUST204,True,4,31.0,124.0,month-to-month,electronic check,Flowers not as fresh as expected,negative,product quality
+CUST205,False,17,27.0,459.0,one year,credit card,Every bouquet is a work of art,positive,bouquet preferences
+CUST206,True,5,32.5,162.5,month-to-month,bank transfer,Too pricey for the quality,negative,price complaints
+CUST207,False,19,28.0,532.0,two year,mailed check,Subscription is a great gift,positive,general feedback
+CUST208,True,6,33.0,198.0,month-to-month,credit card,Not satisfied with the variety,negative,bouquet preferences
+CUST209,False,14,29.5,413.0,one year,electronic check,Excellent customer service,positive,customer service
+CUST210,True,7,30.5,213.5,month-to-month,bank transfer,Delivery times were unpredictable,negative,delivery issues
+CUST211,False,20,27.5,550.0,two year,mailed check,Love the monthly flower surprise,positive,general feedback
+CUST212,True,8,31.0,248.0,month-to-month,credit card,Expected better quality bouquets,negative,product quality
+CUST213,False,11,28.5,313.5,one year,bank transfer,Very satisfied with the service,positive,general feedback
+CUST214,True,9,34.0,306.0,month-to-month,electronic check,Prices are too high for the offering,negative,price complaints
+CUST215,False,15,27.99,419.85,one year,credit card,The flowers are always beautiful,positive,product quality
+CUST216,True,2,30.0,60.0,month-to-month,mailed check,Not enough flower choices,negative,bouquet preferences
+CUST217,False,23,26.0,598.0,two year,credit card,Happy with every bouquet,positive,product quality
+CUST218,True,3,29.5,88.5,month-to-month,bank transfer,Flowers didn't meet expectations,negative,product quality
+CUST219,False,18,28.0,504.0,one year,mailed check,Always great service and quality,positive,general feedback
+CUST220,True,4,32.0,128.0,month-to-month,credit card,Quality has declined,negative,product quality
+CUST221,False,16,27.5,440.0,two year,electronic check,Subscription is a joy every month,positive,general feedback
+CUST222,True,5,33.5,167.5,month-to-month,bank transfer,Expensive compared to quality,negative,price complaints
+CUST223,False,12,29.0,348.0,one year,credit card,Flowers are consistently stunning,positive,product quality
+CUST224,True,6,30.5,183.0,month-to-month,mailed check,Disappointed with the delivery service,negative,delivery issues
+CUST225,False,21,26.5,556.5,two year,bank transfer,Very happy with the flower quality,positive,product quality
+CUST226,True,7,31.0,217.0,month-to-month,credit card,Expected more for the price,negative,price complaints
+CUST227,False,13,28.5,370.5,one year,mailed check,Subscription brings happiness,positive,general feedback
+CUST228,True,8,34.5,276.0,month-to-month,bank transfer,Not satisfied with the flower freshness,negative,product quality
+CUST229,False,10,30.0,300.0,two year,credit card,Flowers are a monthly delight,positive,general feedback
+CUST230,True,2,35.0,70.0,month-to-month,mailed check,Too costly for the bouquet size,negative,price complaints
+CUST231,False,15,27.99,419.85,one year,bank transfer,Always satisfied with my orders,positive,general feedback
+CUST232,True,3,29.5,88.5,month-to-month,credit card,Quality not as good as before,negative,product quality
+CUST233,False,17,28.0,476.0,two year,electronic check,High-quality flowers every time,positive,product quality
+CUST234,True,4,32.0,128.0,month-to-month,bank transfer,Not happy with the delivery timing,negative,delivery issues
+CUST235,False,19,27.5,522.5,one year,mailed check,Great customer service and flowers,positive,general feedback
+CUST236,True,5,33.5,167.5,month-to-month,credit card,Expected better bouquet variety,negative,bouquet preferences
+CUST237,False,21,26.5,556.5,two year,credit card,Very pleased with every delivery,positive,delivery quality
+CUST238,True,6,30.5,183.0,month-to-month,mailed check,Too expensive for what's offered,negative,price complaints
+CUST239,False,12,29.0,348.0,one year,bank transfer,Consistently excellent service,positive,general feedback
+CUST240,True,7,31.0,217.0,month-to-month,credit card,Flowers wilted too quickly,negative,product quality
+CUST241,False,14,29.5,413.0,two year,electronic check,Subscription is a great value,positive,price appreciation
+CUST242,True,8,34.0,272.0,month-to-month,mailed check,Disappointed with the flower freshness,negative,product quality
+CUST243,False,10,30.5,305.0,one year,credit card,Flowers are always fresh and lovely,positive,product quality
+CUST244,True,2,35.5,71.0,month-to-month,bank transfer,Not satisfied with the service,negative,customer service
+CUST245,False,16,27.99,447.84,two year,mailed check,Love the variety and quality,positive,bouquet preferences
+CUST246,True,3,30.0,90.0,month-to-month,credit card,Quality not as advertised,negative,product quality
+CUST247,False,18,28.0,504.0,one year,bank transfer,Always impressed with the bouquets,positive,general feedback
+CUST248,True,4,32.0,128.0,month-to-month,mailed check,Expected more variety in bouquets,negative,bouquet preferences
+CUST249,False,20,27.5,550.0,two year,credit card,Consistently happy with my orders,positive,general feedback
+CUST250,True,5,33.5,167.5,month-to-month,electronic check,Too pricey for the bouquet size,negative,price complaints
+CUST251,False,11,28.5,313.5,two year,bank transfer,Every bouquet is a delight,positive,general feedback
+CUST252,True,1,35.0,35.0,month-to-month,credit card,Not happy with the flower quality,negative,product quality
+CUST253,False,23,26.0,598.0,one year,mailed check,Subscription is worth every penny,positive,price appreciation
+CUST254,True,2,31.0,62.0,month-to-month,electronic check,Too expensive for the quality,negative,price complaints
+CUST255,False,14,29.5,413.0,two year,credit card,Flowers always exceed expectations,positive,product quality
+CUST256,True,3,30.5,91.5,month-to-month,bank transfer,Unsatisfied with the bouquet variety,negative,bouquet preferences
+CUST257,False,17,27.0,459.0,one year,electronic check,Happy with the service and quality,positive,general feedback
+CUST258,True,4,34.0,136.0,month-to-month,mailed check,Flowers wilted quickly,negative,product quality
+CUST259,False,19,28.0,532.0,two year,bank transfer,Always a pleasant surprise,positive,general feedback
+CUST260,True,5,32.0,160.0,month-to-month,credit card,Expected more for the price,negative,price complaints
+CUST261,False,12,29.0,348.0,one year,mailed check,Consistently great flower quality,positive,product quality
+CUST262,True,6,30.5,183.0,month-to-month,electronic check,Delivery service was poor,negative,delivery issues
+CUST263,False,22,26.5,583.0,two year,credit card,Highly recommend this service,positive,general feedback
+CUST264,True,7,31.0,217.0,month-to-month,bank transfer,Not satisfied with the flower freshness,negative,product quality
+CUST265,False,13,28.5,370.5,one year,electronic check,Always happy with the bouquets,positive,bouquet preferences
+CUST266,True,8,34.5,276.0,month-to-month,mailed check,Prices are too high for the quality,negative,price complaints
+CUST267,False,10,30.0,300.0,two year,bank transfer,Flowers are a monthly joy,positive,general feedback
+CUST268,True,1,35.5,35.5,month-to-month,credit card,Disappointed with the service,negative,customer service
+CUST269,False,15,27.99,419.85,one year,mailed check,Very satisfied with every delivery,positive,delivery quality
+CUST270,True,2,29.5,59.0,month-to-month,electronic check,Quality not as expected,negative,product quality
+CUST271,False,18,28.0,504.0,two year,credit card,Subscription is a great value,positive,price appreciation
+CUST272,True,3,30.0,90.0,month-to-month,bank transfer,Not happy with the bouquet choices,negative,bouquet preferences
+CUST273,False,16,27.5,440.0,one year,electronic check,Flowers are always stunning,positive,product quality
+CUST274,True,4,32.0,128.0,month-to-month,mailed check,Delivery was unreliable,negative,delivery issues
+CUST275,False,20,27.5,550.0,two year,bank transfer,Great variety and quality,positive,bouquet preferences
+CUST276,True,5,33.5,167.5,month-to-month,credit card,Too pricey for the bouquet size,negative,price complaints
+CUST277,False,11,28.5,313.5,one year,mailed check,Always satisfied with my orders,positive,general feedback
+CUST278,True,6,30.0,180.0,month-to-month,electronic check,Expected more variety,negative,bouquet preferences
+CUST279,False,14,29.5,413.0,two year,credit card,Highly recommend for quality and service,positive,general feedback
+CUST280,True,7,31.0,217.0,month-to-month,bank transfer,Not impressed with the flower freshness,negative,product quality
+CUST281,False,12,29.0,348.0,one year,electronic check,Subscription brings joy,positive,general feedback
+CUST282,True,8,34.0,272.0,month-to-month,mailed check,Quality has declined over time,negative,product quality
+CUST283,False,10,30.5,305.0,two year,bank transfer,Great customer service and bouquets,positive,customer service
+CUST284,True,1,35.5,35.5,month-to-month,credit card,Too expensive for what's offered,negative,price complaints
+CUST285,False,15,27.99,419.85,one year,mailed check,Flowers always exceed expectations,positive,product quality
+CUST286,True,2,29.0,58.0,month-to-month,electronic check,Not satisfied with the delivery,negative,delivery issues
+CUST287,False,18,28.0,504.0,two year,credit card,Love the flower variety,positive,bouquet preferences
+CUST288,True,3,30.5,91.5,month-to-month,bank transfer,Flowers not as fresh as hoped,negative,product quality
+CUST289,False,16,27.5,440.0,one year,mailed check,Always a wonderful experience,positive,general feedback
+CUST290,True,4,32.0,128.0,month-to-month,credit card,Expected better quality bouquets,negative,product quality
+CUST291,True,20,27.5,550.0,two year,bank transfer,Subscription is a great treat,positive,general feedback
+CUST292,True,5,33.5,167.5,month-to-month,mailed check,Too costly for the quality,negative,price complaints
+CUST293,True,11,28.5,313.5,one year,credit card,Very happy with the service,positive,general feedback
+CUST294,True,6,30.0,180.0,month-to-month,electronic check,Not enough flower variety,negative,bouquet preferences
+CUST295,True,14,29.5,413.0,two year,bank transfer,High-quality flowers every month,positive,product quality
+CUST296,True,7,31.0,217.0,month-to-month,mailed check,Disappointed with the flower freshness,negative,product quality
+CUST297,True,12,29.0,348.0,one year,electronic check,Always look forward to the bouquets,positive,general feedback
+CUST298,True,8,34.5,276.0,month-to-month,credit card,Flowers didn't meet expectations,negative,product quality
+CUST299,True,10,30.5,305.0,two year,mailed check,Happy with the flower quality,positive,product quality
+CUST300,True,1,35.0,35.0,month-to-month,electronic check,Service not as expected,negative,customer service
+CUST301,True,15,27.99,419.85,one year,bank transfer,Consistently beautiful bouquets,positive,product quality
+CUST302,True,2,29.0,58.0,month-to-month,credit card,Not satisfied with the variety,negative,bouquet preferences
+CUST303,True,18,28.0,504.0,two year,electronic check,Every delivery is a pleasant surprise,positive,general feedback
+CUST304,True,3,30.5,91.5,month-to-month,mailed check,Too pricey for the bouquet size,negative,price complaints
+CUST305,True,20,27.5,550.0,one year,credit card,Flowers are always stunning,positive,product quality
+CUST306,True,4,32.0,128.0,month-to-month,bank transfer,Delivery service was unreliable,negative,delivery issues
+CUST307,True,16,27.99,447.84,two year,mailed check,Great value and quality,positive,price appreciation
+CUST308,True,5,33.5,167.5,month-to-month,credit card,Expected better customer service,negative,customer service
+CUST309,True,11,28.5,313.5,one year,bank transfer,Subscription brings joy each month,positive,general feedback
+CUST310,True,6,30.0,180.0,month-to-month,electronic check,Not happy with the flower freshness,negative,product quality
+CUST311,True,22,26.5,583.0,two year,credit card,Love the flower selection,positive,bouquet preferences
+CUST312,True,7,31.0,217.0,month-to-month,mailed check,Too expensive for the quality,negative,price complaints
+CUST313,True,13,29.0,377.0,one year,electronic check,Always satisfied with the bouquets,positive,bouquet preferences
+CUST314,True,8,34.5,276.0,month-to-month,bank transfer,Quality has declined,negative,product quality
+CUST315,True,10,30.5,305.0,two year,mailed check,Great customer care and bouquets,positive,customer service
+CUST316,True,1,35.5,35.5,month-to-month,credit card,Disappointed with the delivery service,negative,delivery issues
+CUST317,True,14,29.5,413.0,one year,bank transfer,Subscription is a wonderful gift,positive,general feedback
+CUST318,True,2,29.0,58.0,month-to-month,electronic check,Not worth the monthly cost,negative,price complaints
+CUST319,False,17,28.0,476.0,two year,credit card,Very happy with the subscription,positive,general feedback
+CUST320,True,3,30.0,90.0,month-to-month,mailed check,Quality not as advertised,negative,product quality
+CUST321,False,19,27.5,522.5,one year,bank transfer,Consistently excellent service,positive,general feedback
+CUST322,True,4,32.0,128.0,month-to-month,credit card,Expected more flower variety,negative,bouquet preferences
+CUST323,False,16,27.99,447.84,two year,mailed check,Always a wonderful experience,positive,general feedback
+CUST324,True,5,33.5,167.5,month-to-month,electronic check,Too costly for the bouquet size,negative,price complaints
+CUST325,False,11,28.5,313.5,one year,bank transfer,Flowers are always fresh and lovely,positive,product quality
+CUST326,True,6,30.0,180.0,month-to-month,credit card,Not impressed with the service,negative,customer service
+CUST327,False,13,29.0,377.0,two year,electronic check,Subscription is a great treat,positive,general feedback
+CUST328,True,7,31.0,217.0,month-to-month,mailed check,Disappointed with the flower quality,negative,product quality
+CUST329,False,20,27.5,550.0,one year,bank transfer,Highly recommend for quality,positive,general feedback
+CUST330,True,8,34.0,272.0,month-to-month,credit card,Expected better customer service,negative,customer service
+CUST331,False,10,30.5,305.0,two year,mailed check,Very satisfied with each delivery,positive,delivery quality
+CUST332,True,1,35.5,35.5,month-to-month,electronic check,Not happy with the bouquet variety,negative,bouquet preferences
+CUST333,False,15,27.99,419.85,one year,credit card,Consistently great flower quality,positive,product quality
+CUST334,True,2,29.0,58.0,month-to-month,bank transfer,Too expensive for the quality,negative,price complaints
+CUST335,False,18,28.0,504.0,two year,mailed check,Flowers always exceed expectations,positive,product quality
+CUST336,True,3,30.5,91.5,month-to-month,credit card,Delivery service was poor,negative,delivery issues
+CUST337,False,16,27.5,440.0,one year,bank transfer,Great variety and quality,positive,bouquet preferences
+CUST338,True,4,32.0,128.0,month-to-month,mailed check,Not satisfied with the flower freshness,negative,product quality
+CUST339,False,12,29.0,348.0,two year,credit card,Always a delightful experience,positive,general feedback
+CUST340,True,5,33.5,167.5,month-to-month,electronic check,Too pricey for the offering,negative,price complaints
+CUST341,False,11,28.5,313.5,one year,bank transfer,Subscription is a joy every month,positive,general feedback
+CUST342,True,6,30.0,180.0,month-to-month,credit card,Expected more for the price,negative,price complaints
+CUST343,False,14,29.5,413.0,two year,mailed check,High-quality flowers every time,positive,product quality
+CUST344,True,7,31.0,217.0,month-to-month,electronic check,Not happy with the delivery timing,negative,delivery issues
+CUST345,False,20,27.5,550.0,one year,credit card,Always impressed with the bouquets,positive,bouquet preferences
+CUST346,True,8,34.0,272.0,month-to-month,bank transfer,Quality not as good as expected,negative,product quality
+CUST347,False,10,30.5,305.0,two year,mailed check,Subscription brings happiness,positive,general feedback
+CUST348,True,1,35.5,35.5,month-to-month,credit card,Disappointed with the service,negative,customer service
+CUST349,False,15,27.99,419.85,one year,bank transfer,Love the variety each month,positive,bouquet preferences
+CUST350,True,2,29.0,58.0,month-to-month,mailed check,Not satisfied with the delivery,negative,delivery issues
+CUST351,False,18,28.0,504.0,two year,credit card,Every bouquet is a masterpiece,positive,product quality
+CUST352,True,3,30.5,91.5,month-to-month,bank transfer,Expected more variety in bouquets,negative,bouquet preferences
+CUST353,False,16,27.99,447.84,one year,mailed check,Subscription is a great value,positive,price appreciation
+CUST354,True,4,32.0,128.0,month-to-month,credit card,Not happy with the delivery service,negative,delivery issues
+CUST355,False,11,28.5,313.5,two year,electronic check,Very pleased with the service,positive,general feedback
+CUST356,True,5,33.5,167.5,month-to-month,mailed check,Quality not as good as before,negative,product quality
+CUST357,False,13,29.0,377.0,one year,bank transfer,Always a wonderful experience,positive,general feedback
+CUST358,True,6,30.0,180.0,month-to-month,credit card,Too expensive for the bouquet size,negative,price complaints
+CUST359,False,20,27.5,550.0,two year,mailed check,Consistently high-quality flowers,positive,product quality
+CUST360,True,7,31.0,217.0,month-to-month,electronic check,Delivery times were unpredictable,negative,delivery issues
+CUST361,False,10,30.5,305.0,one year,credit card,Flowers always exceed expectations,positive,product quality
+CUST362,True,1,35.5,35.5,month-to-month,bank transfer,Not satisfied with the flower quality,negative,product quality
+CUST363,False,15,27.99,419.85,two year,electronic check,Great customer service and flowers,positive,customer service
+CUST364,True,2,29.0,58.0,month-to-month,mailed check,Too costly for the quality,negative,price complaints
+CUST365,False,17,28.0,476.0,one year,credit card,Highly recommend this service,positive,general feedback
+CUST366,True,3,30.5,91.5,month-to-month,credit card,Disappointed with the bouquet variety,negative,bouquet preferences
+CUST367,False,19,27.5,522.5,two year,mailed check,Flowers are a monthly delight,positive,general feedback
+CUST368,True,4,32.0,128.0,month-to-month,electronic check,Expected more for the price,negative,price complaints
+CUST369,False,12,29.0,348.0,one year,bank transfer,Always impressed with the bouquets,positive,bouquet preferences
+CUST370,True,5,33.5,167.5,month-to-month,mailed check,Not happy with the service,negative,customer service
+CUST371,False,22,26.5,583.0,two year,credit card,Great variety and quality,positive,bouquet preferences
+CUST372,True,6,30.0,180.0,month-to-month,electronic check,Too expensive for the bouquet size,negative,price complaints
+CUST373,False,14,29.5,413.0,one year,mailed check,Subscription brings happiness,positive,general feedback
+CUST374,True,7,31.0,217.0,month-to-month,bank transfer,Quality has declined,negative,product quality
+CUST375,False,11,28.5,313.5,two year,credit card,Always a joy to receive,positive,general feedback
+CUST376,True,8,34.0,272.0,month-to-month,mailed check,Not satisfied with the flower freshness,positive,product quality
+CUST377,False,10,30.5,305.0,one year,bank transfer,Flowers always arrive fresh,positive,product quality
+CUST378,True,1,35.5,35.5,month-to-month,credit card,Disappointed with the delivery timing,positive,delivery issues
+CUST379,False,15,27.99,419.85,two year,mailed check,High-quality flowers every time,positive,product quality
+CUST380,True,2,29.0,58.0,month-to-month,electronic check,Too costly for the bouquet size,positive,price complaints
+CUST381,False,18,28.0,504.0,one year,credit card,Subscription is a great value,positive,price appreciation
+CUST382,True,3,30.5,91.5,month-to-month,mailed check,Not impressed with the flower variety,positive,bouquet preferences
+CUST383,False,16,27.5,440.0,two year,electronic check,Always pleased with the service,positive,general feedback
+CUST384,True,4,32.0,128.0,month-to-month,credit card,Expected better quality,positive,product quality
+CUST385,False,13,29.0,377.0,one year,mailed check,Flowers are always a pleasant surprise,positive,general feedback
+CUST386,True,5,33.5,167.5,month-to-month,electronic check,Not worth the monthly fee,positive,price complaints
+CUST387,False,20,27.5,550.0,two year,mailed check,Highly recommend for flower lovers,positive,general feedback
+CUST388,True,6,30.0,180.0,month-to-month,credit card,Quality not as expected,positive,product quality
+CUST389,False,22,26.5,583.0,one year,bank transfer,Love the monthly flower surprise,positive,general feedback
+CUST390,True,7,31.0,217.0,month-to-month,mailed check,Too expensive for the offering,positive,price complaints
+CUST391,False,11,28.5,313.5,two year,credit card,Very satisfied with the bouquets,positive,bouquet preferences
+CUST392,True,8,34.5,276.0,month-to-month,electronic check,Not happy with the delivery service,positive,delivery issues
+CUST393,False,10,30.0,300.0,one year,mailed check,Subscription is a great treat,positive,general feedback
+CUST394,True,1,35.0,35.0,month-to-month,bank transfer,Disappointed with the flower freshness,positive,product quality
+CUST395,False,14,29.5,413.0,two year,credit card,Flowers always arrive in perfect condition,positive,product quality
+CUST396,True,2,29.0,58.0,month-to-month,mailed check,Too pricey for what's offered,positive,price complaints
+CUST397,False,17,28.0,476.0,one year,electronic check,Always a wonderful experience,positive,general feedback
+CUST398,True,3,30.5,91.5,month-to-month,credit card,Expected more variety,positive,bouquet preferences
+CUST399,False,19,27.5,522.5,two year,mailed check,Subscription brings joy every month,positive,general feedback
+CUST400,True,4,32.0,128.0,month-to-month,electronic check,Not satisfied with the bouquet size,positive,price complaints
+CUST401,False,21,26.5,556.5,two year,credit card,Always happy with the flower quality,positive,product quality
+CUST402,True,1,35.0,35.0,month-to-month,bank transfer,Disappointed with the flower freshness,positive,product quality
+CUST403,False,13,29.0,377.0,one year,mailed check,Great customer service,positive,customer service
+CUST404,True,2,29.5,59.0,month-to-month,electronic check,Too costly for the bouquet size,positive,price complaints
+CUST405,False,18,28.0,504.0,two year,credit card,Consistently impressed with the bouquets,positive,bouquet preferences
+CUST406,True,3,30.5,91.5,month-to-month,mailed check,Not satisfied with the delivery,negative,delivery issues
+CUST407,False,16,27.99,447.84,one year,bank transfer,Subscription is a great value,negative,price appreciation
+CUST408,True,4,32.0,128.0,month-to-month,credit card,Quality has declined,negative,product quality
+CUST409,False,12,29.0,348.0,two year,electronic check,Very happy with the service,negative,general feedback
+CUST410,True,5,33.5,167.5,month-to-month,mailed check,Not enough variety in bouquets,negative,bouquet preferences
+CUST411,False,10,30.5,305.0,one year,credit card,Flowers always arrive fresh and beautiful,negative,product quality
+CUST412,True,6,30.0,180.0,month-to-month,electronic check,Too expensive for the quality,negative,price complaints
+CUST413,False,22,26.5,583.0,two year,mailed check,Highly recommend for flower lovers,negative,general feedback
+CUST414,True,7,31.0,217.0,month-to-month,credit card,Expected better customer service,negative,customer service
+CUST415,False,15,27.99,419.85,one year,electronic check,Subscription brings joy each month,negative,general feedback
+CUST416,True,8,34.5,276.0,month-to-month,bank transfer,Not happy with the bouquet variety,negative,bouquet preferences
+CUST417,False,11,28.5,313.5,two year,credit card,Always satisfied with the bouquets,negative,bouquet preferences
+CUST418,True,1,35.0,35.0,month-to-month,mailed check,Disappointed with the flower quality,negative,product quality
+CUST419,False,17,28.0,476.0,one year,bank transfer,Flowers are a monthly delight,negative,general feedback
+CUST420,True,2,29.5,59.0,month-to-month,credit card,Too pricey for the bouquet size,negative,price complaints
+CUST421,False,19,27.5,522.5,two year,electronic check,Consistently great flower quality,negative,product quality
+CUST422,True,3,30.0,90.0,month-to-month,mailed check,Not satisfied with the delivery service,negative,delivery issues
+CUST423,False,14,29.5,413.0,one year,credit card,Subscription is a great gift,negative,general feedback
+CUST424,True,4,32.0,128.0,month-to-month,electronic check,Expected better quality,negative,product quality
+CUST425,False,20,27.5,550.0,two year,mailed check,Always impressed with the bouquets,negative,bouquet preferences
+CUST426,True,5,33.5,167.5,month-to-month,credit card,Not happy with the flower variety,negative,bouquet preferences
+CUST427,False,12,29.0,348.0,one year,bank transfer,Very satisfied with each delivery,negative,delivery quality
+CUST428,True,6,30.0,180.0,month-to-month,mailed check,Too expensive for the quality,negative,price complaints
+CUST429,False,16,27.99,447.84,two year,credit card,Love the monthly flower surprise,negative,general feedback
+CUST430,True,7,31.0,217.0,month-to-month,electronic check,Not impressed with the flower freshness,negative,product quality
+CUST431,False,10,30.5,305.0,one year,bank transfer,Subscription brings happiness every month,negative,general feedback
+CUST432,True,1,35.5,35.5,month-to-month,credit card,Disappointed with the service,negative,customer service
+CUST433,False,13,29.0,377.0,two year,mailed check,High-quality flowers every time,negative,product quality
+CUST434,True,2,29.5,59.0,month-to-month,electronic check,Too pricey for the bouquet size,negative,price complaints
+CUST435,False,18,28.0,504.0,one year,credit card,Always happy with the flower quality,negative,product quality
+CUST436,True,3,30.5,91.5,month-to-month,mailed check,Delivery service was poor,negative,delivery issues
+CUST437,False,15,27.99,419.85,two year,electronic check,Great variety and quality,negative,bouquet preferences
+CUST438,True,4,32.0,128.0,month-to-month,credit card,Expected better quality bouquets,negative,product quality
+CUST439,False,11,28.5,313.5,one year,bank transfer,Very satisfied with the service,negative,general feedback
+CUST440,True,5,33.5,167.5,month-to-month,mailed check,Not satisfied with the flower freshness,negative,product quality
+CUST441,False,21,26.5,556.5,two year,credit card,Subscription is a joy every month,negative,general feedback
+CUST442,True,6,30.0,180.0,month-to-month,electronic check,Too expensive for the offering,negative,price complaints
+CUST443,False,17,28.0,476.0,one year,mailed check,Consistently impressed with the quality,negative,product quality
+CUST444,True,7,31.0,217.0,month-to-month,credit card,Not happy with the delivery timing,negative,delivery issues
+CUST445,False,19,27.5,522.5,two year,electronic check,Highly recommend for flower lovers,negative,general feedback
+CUST446,True,8,34.0,272.0,month-to-month,mailed check,Quality not as good as expected,negative,product quality
+CUST447,False,12,29.0,348.0,one year,bank transfer,Love the flower variety,positive,bouquet preferences
+CUST448,True,9,33.5,301.5,month-to-month,credit card,Not satisfied with the flower quality,negative,product quality
+CUST449,False,10,30.5,305.0,two year,mailed check,Subscription brings happiness,positive,general feedback
+CUST450,True,1,35.5,35.5,month-to-month,electronic check,Service not as expected,negative,customer service
+CUST451,False,13,29.0,377.0,one year,credit card,Always a delightful surprise,positive,general feedback
+CUST452,True,2,29.5,59.0,month-to-month,bank transfer,Not worth the monthly fee,negative,price complaints
+CUST453,False,18,28.0,504.0,two year,mailed check,Flowers are always stunning,positive,product quality
+CUST454,True,3,30.5,91.5,month-to-month,credit card,Disappointed with the flower variety,negative,bouquet preferences
+CUST455,False,16,27.99,447.84,one year,electronic check,Great value and quality,negative,price appreciation
+CUST456,True,4,32.0,128.0,month-to-month,mailed check,Delivery service was unreliable,negative,delivery issues
+CUST457,False,11,28.5,313.5,two year,credit card,Always happy with the bouquets,negative,bouquet preferences
+CUST458,True,5,33.5,167.5,month-to-month,electronic check,Too expensive for the quality,negative,price complaints
+CUST459,False,22,26.5,583.0,one year,mailed check,Consistently high-quality flowers,negative,product quality
+CUST460,True,6,30.0,180.0,month-to-month,credit card,Not satisfied with the delivery service,negative,delivery issues
+CUST461,False,10,30.5,305.0,two year,electronic check,Flowers always exceed expectations,negative,product quality
+CUST462,True,7,31.0,217.0,month-to-month,mailed check,Expected better quality bouquets,negative,product quality
+CUST463,False,15,27.99,419.85,one year,credit card,Highly recommend this service,negative,general feedback
+CUST464,True,8,34.5,276.0,month-to-month,electronic check,Not happy with the flower variety,negative,bouquet preferences
+CUST465,False,12,29.0,348.0,two year,mailed check,Very satisfied with each delivery,negative,delivery quality
+CUST466,True,1,35.0,35.0,month-to-month,credit card,Disappointed with the flower quality,negative,product quality
+CUST467,False,17,28.0,476.0,one year,electronic check,Subscription brings joy every month,negative,general feedback
+CUST468,True,2,29.5,59.0,month-to-month,mailed check,Too costly for the bouquet size,negative,price complaints
+CUST469,False,19,27.5,522.5,two year,credit card,Consistently great flower quality,negative,product quality
+CUST470,True,3,30.0,90.0,month-to-month,electronic check,Not satisfied with the delivery,negative,delivery issues
+CUST471,False,14,29.5,413.0,one year,mailed check,Great customer service and flowers,negative,customer service
+CUST472,True,4,32.0,128.0,month-to-month,credit card,Expected better quality,negative,product quality
+CUST473,False,20,27.5,550.0,two year,electronic check,Always impressed with the bouquets,negative,bouquet preferences
+CUST474,True,5,33.5,167.5,month-to-month,mailed check,Not happy with the flower variety,negative,bouquet preferences
+CUST475,False,11,28.5,313.5,one year,credit card,Always a joy to receive,negative,general feedback
+CUST476,True,6,30.0,180.0,month-to-month,electronic check,Too expensive for the quality,negative,price complaints
+CUST477,False,13,29.0,377.0,two year,mailed check,Very satisfied with the service,negative,general feedback
+CUST478,True,7,31.0,217.0,month-to-month,credit card,Disappointed with the flower freshness,negative,product quality
+CUST479,False,10,30.5,305.0,one year,electronic check,Flowers always arrive fresh,negative,product quality
+CUST480,True,1,35.5,35.5,month-to-month,mailed check,Not satisfied with the service,negative,customer service
+CUST481,False,15,27.99,419.85,two year,credit card,High-quality flowers every time,negative,product quality
+CUST482,True,2,29.0,58.0,month-to-month,electronic check,Too costly for the bouquet size,negative,price complaints
+CUST483,False,18,28.0,504.0,one year,mailed check,Subscription is a great value,negative,price appreciation
+CUST484,True,3,30.5,91.5,month-to-month,credit card,Not impressed with the flower variety,negative,bouquet preferences
+CUST485,False,16,27.5,440.0,two year,electronic check,Always pleased with the service,negative,general feedback
+CUST486,True,4,32.0,128.0,month-to-month,mailed check,Expected better quality,negative,product quality
+CUST487,False,12,29.0,348.0,one year,credit card,Flowers are always a pleasant surprise,negative,general feedback
+CUST488,True,5,33.5,167.5,month-to-month,electronic check,Not worth the monthly fee,negative,price complaints
+CUST489,False,20,27.5,550.0,two year,mailed check,Highly recommend for flower lovers,negative,general feedback
+CUST490,True,6,30.0,180.0,month-to-month,credit card,Quality not as expected,negative,product quality
+CUST491,False,22,26.5,583.0,one year,bank transfer,Love the monthly flower surprise,negative,general feedback
+CUST492,True,7,31.0,217.0,month-to-month,mailed check,Too expensive for the offering,negative,price complaints
+CUST493,False,11,28.5,313.5,two year,credit card,Very satisfied with the bouquets,negative,bouquet preferences
+CUST494,True,8,34.5,276.0,month-to-month,electronic check,Not happy with the delivery service,negative,delivery issues
+CUST495,False,10,30.0,300.0,one year,mailed check,Subscription is a great treat,negative,general feedback
+CUST496,True,1,35.0,35.0,month-to-month,bank transfer,Disappointed with the flower freshness,negative,product quality
+CUST497,False,14,29.5,413.0,two year,credit card,Flowers always arrive in perfect condition,negative,product quality
+CUST498,True,2,29.0,58.0,month-to-month,mailed check,Too pricey for what's offered,negative,price complaints
+CUST499,False,17,28.0,476.0,one year,electronic check,Always a wonderful experience,negative,general feedback
+CUST500,True,3,30.5,91.5,month-to-month,credit card,Expected more variety,negative,bouquet preferences
+CUST501,False,19,27.5,522.5,two year,mailed check,Subscription brings joy every month,negative,general feedback
+CUST502,True,4,32.0,128.0,month-to-month,credit card,Not satisfied with the bouquet size,negative,price complaints
+CUST503,False,21,26.5,556.5,one year,credit card,Always happy with the flower quality,negative,product quality
+CUST504,True,1,35.0,35.0,month-to-month,bank transfer,Disappointed with the flower freshness,negative,product quality
+CUST505,False,13,29.0,377.0,two year,mailed check,Great customer service,negative,customer service
+CUST506,True,2,29.5,59.0,month-to-month,electronic check,Too costly for the bouquet size,negative,price complaints
+CUST507,False,18,28.0,504.0,one year,credit card,Consistently impressed with the bouquets,negative,bouquet preferences
+CUST508,True,3,30.5,91.5,month-to-month,mailed check,Not satisfied with the delivery,negative,delivery issues
+CUST509,False,16,27.99,447.84,two year,electronic check,Subscription is a great value,negative,price appreciation
+CUST510,True,4,32.0,128.0,month-to-month,credit card,Quality has declined,negative,product quality
+CUST511,False,12,29.0,348.0,one year,electronic check,Very happy with the service,negative,general feedback
+CUST512,True,5,33.5,167.5,month-to-month,mailed check,Not enough variety in bouquets,negative,bouquet preferences
+CUST513,False,10,30.5,305.0,two year,credit card,Flowers always arrive fresh and beautiful,negative,product quality
+CUST514,True,6,30.0,180.0,month-to-month,electronic check,Too expensive for the quality,negative,price complaints
+CUST515,False,22,26.5,583.0,one year,mailed check,Consistently high-quality flowers,negative,product quality
+CUST516,True,7,31.0,217.0,month-to-month,credit card,Expected better quality bouquets,negative,product quality
+CUST517,False,15,27.99,419.85,two year,electronic check,Highly recommend this service,negative,general feedback
+CUST518,True,8,34.5,276.0,month-to-month,electronic check,Not happy with the flower variety,negative,bouquet preferences
+CUST519,False,11,28.5,313.5,one year,credit card,Always satisfied with the bouquets,negative,bouquet preferences
+CUST520,True,1,35.0,35.0,month-to-month,mailed check,Disappointed with the flower quality,negative,product quality
+CUST521,False,17,28.0,476.0,two year,electronic check,Subscription brings joy every month,negative,general feedback
+CUST522,True,2,29.5,59.0,month-to-month,credit card,Too costly for the bouquet size,negative,price complaints
+CUST523,False,19,27.5,522.5,one year,mailed check,Consistently great flower quality,positive,product quality
+CUST524,True,3,30.0,90.0,month-to-month,electronic check,Not satisfied with the delivery,negative,delivery issues
+CUST525,False,14,29.5,413.0,two year,credit card,Great customer service and flowers,positive,customer service
+CUST526,True,4,32.0,128.0,month-to-month,mailed check,Expected better quality,negative,product quality
+CUST527,False,20,27.5,550.0,one year,credit card,Always impressed with the bouquets,positive,bouquet preferences
+CUST528,True,5,33.5,167.5,month-to-month,electronic check,Not happy with the flower variety,negative,bouquet preferences
+CUST529,False,11,28.5,313.5,two year,mailed check,Always a joy to receive,positive,general feedback
+CUST530,True,6,30.0,180.0,month-to-month,credit card,Too expensive for the quality,negative,price complaints
+CUST531,False,13,29.0,377.0,one year,electronic check,Very satisfied with the service,positive,general feedback
+CUST532,True,7,31.0,217.0,month-to-month,mailed check,Disappointed with the flower freshness,negative,product quality
+CUST533,False,10,30.5,305.0,two year,credit card,,positive,product quality
+CUST534,True,1,35.5,35.5,month-to-month,mailed check,Not satisfied with the service,negative,customer service
+CUST535,False,15,27.99,419.85,one year,credit card,High-quality flowers every time,positive,product quality
+CUST536,True,2,29.0,58.0,month-to-month,electronic check,Too costly for the bouquet size,negative,price complaints
+CUST537,False,18,28.0,504.0,two year,mailed check,Subscription is a great value,positive,price appreciation
+CUST538,True,3,30.5,91.5,month-to-month,credit card,Not impressed with the flower variety,negative,bouquet preferences
+CUST539,False,16,27.5,440.0,one year,electronic check,Always pleased with the service,positive,general feedback
+CUST540,True,4,32.0,128.0,month-to-month,mailed check,Expected better quality,negative,product quality
+CUST541,False,12,29.0,348.0,two year,credit card,Flowers are always a pleasant surprise,positive,general feedback
+CUST542,True,5,33.5,167.5,month-to-month,electronic check,Not worth the monthly fee,negative,price complaints
+CUST543,False,20,27.5,550.0,one year,mailed check,Highly recommend for flower lovers,positive,general feedback
+CUST544,True,6,30.0,180.0,month-to-month,credit card,Quality not as expected,negative,product quality
+CUST545,False,22,26.5,583.0,two year,bank transfer,Love the monthly flower surprise,positive,general feedback
+CUST546,True,7,31.0,217.0,month-to-month,mailed check,Too expensive for the offering,negative,price complaints
+CUST547,False,11,28.5,313.5,one year,credit card,Very satisfied with the bouquets,positive,bouquet preferences
+CUST548,True,8,34.5,276.0,month-to-month,electronic check,,negative,delivery issues
+CUST549,False,10,30.0,300.0,one year,mailed check,,positive,general feedback
+CUST550,True,1,35.0,35.0,month-to-month,bank transfer,,negative,product quality
+CUST551,False,14,29.5,413.0,two year,credit card,,positive,product quality
+CUST552,True,2,29.0,58.0,month-to-month,mailed check,,negative,price complaints
+CUST553,False,17,28.0,476.0,one year,electronic check,Always a wonderful experience,positive,general feedback
+CUST554,True,3,30.5,91.5,month-to-month,credit card,Expected more variety,negative,bouquet preferences
+CUST555,False,19,27.5,522.5,two year,mailed check,Subscription brings joy every month,positive,general feedback
+CUST556,True,4,32.0,128.0,month-to-month,electronic check,Not satisfied with the bouquet size,negative,price complaints
+CUST557,False,21,26.5,556.5,one year,credit card,Always happy with the flower quality,positive,product quality
+CUST558,True,1,35.0,35.0,month-to-month,bank transfer,Disappointed with the flower freshness,negative,product quality
+CUST559,False,13,29.0,377.0,two year,mailed check,Great customer service,positive,customer service
+CUST560,True,2,29.5,59.0,month-to-month,electronic check,Too costly for the bouquet size,negative,price complaints
+CUST561,False,18,28.0,504.0,one year,credit card,Consistently impressed with the bouquets,positive,bouquet preferences
+CUST562,True,3,30.5,91.5,month-to-month,mailed check,Not satisfied with the delivery,negative,delivery issues
+CUST563,False,16,27.99,447.84,two year,electronic check,Subscription is a great value,positive,price appreciation
+CUST564,True,4,32.0,128.0,month-to-month,credit card,,negative,
+CUST565,False,12,29.0,348.0,one year,electronic check,,positive,
+CUST566,True,5,33.5,167.5,month-to-month,mailed check,,negative,
+CUST567,False,10,30.5,305.0,two year,credit card,,positive,
+CUST568,True,6,30.0,180.0,month-to-month,electronic check,,negative,
+CUST569,False,22,26.5,583.0,one year,mailed check,,positive,
+CUST570,True,7,31.0,217.0,month-to-month,credit card,Expected better quality bouquets,negative,
+CUST571,False,15,27.99,419.85,two year,electronic check,Highly recommend this service,positive,
+CUST572,True,8,34.5,276.0,month-to-month,electronic check,Not happy with the flower variety,negative,bouquet preferences
+CUST573,False,11,28.5,313.5,one year,credit card,Always satisfied with the bouquets,positive,bouquet preferences
+CUST574,True,1,35.0,35.0,month-to-month,mailed check,Disappointed with the flower quality,negative,product quality
+CUST575,False,17,28.0,476.0,two year,electronic check,Subscription brings joy every month,positive,general feedback
+CUST576,True,2,29.5,59.0,month-to-month,credit card,Too costly for the bouquet size,negative,price complaints
+CUST577,False,19,27.5,522.5,one year,mailed check,Consistently great flower quality,positive,product quality
+CUST578,True,3,30.0,90.0,month-to-month,electronic check,Not satisfied with the delivery,negative,
+CUST579,False,14,29.5,413.0,two year,credit card,,positive,
+CUST580,True,4,32.0,128.0,month-to-month,mailed check,,negative,
+CUST581,False,20,27.5,550.0,one year,credit card,,positive,
+CUST582,True,5,33.5,167.5,month-to-month,electronic check,Not happy with the flower variety,negative,
+CUST583,False,11,28.5,313.5,two year,mailed check,Always a joy to receive,positive,
+CUST584,True,6,30.0,180.0,month-to-month,credit card,Too expensive for the quality,negative,
+CUST585,False,13,29.0,377.0,one year,electronic check,Very satisfied with the service,positive,general feedback
+CUST586,True,7,31.0,217.0,month-to-month,mailed check,Disappointed with the flower freshness,negative,
+CUST587,False,10,30.5,305.0,two year,credit card,Flowers always arrive fresh,negative,product quality
+CUST588,True,1,35.5,35.5,month-to-month,mailed check,Not satisfied with the service,negative,customer service
+CUST589,False,15,27.99,419.85,one year,credit card,High-quality flowers every time,negative,product quality
+CUST590,True,2,29.0,58.0,month-to-month,electronic check,,negative,price complaints
+CUST591,False,18,28.0,504.0,two year,mailed check,,negative,
+CUST592,True,3,30.5,91.5,month-to-month,credit card,,negative,
+CUST593,False,16,27.5,440.0,one year,electronic check,,negative,
+CUST594,True,4,32.0,128.0,month-to-month,mailed check,,negative,
+CUST595,False,12,29.0,348.0,two year,credit card,Flowers are always a pleasant surprise,negative,
+CUST596,True,5,33.5,167.5,month-to-month,electronic check,Not worth the monthly fee,negative,
+CUST597,False,20,27.5,550.0,one year,mailed check,Highly recommend for flower lovers,negative,
+CUST598,True,6,30.0,180.0,month-to-month,credit card,Quality not as expected,negative,product quality
+CUST599,False,22,26.5,583.0,two year,bank transfer,Love the monthly flower surprise,positive,general feedback
+CUST600,True,7,31.0,217.0,month-to-month,mailed check,Too expensive for the offering,negative,price complaints
+CUST601,False,11,28.5,313.5,one year,credit card,Very satisfied with the bouquets,positive,bouquet preferences
+CUST602,True,8,34.5,276.0,month-to-month,electronic check,Not happy with the delivery service,negative,delivery issues
+CUST603,False,10,30.0,300.0,one year,mailed check,Subscription is a great treat,positive,general feedback
+CUST604,True,1,35.0,35.0,month-to-month,bank transfer,Disappointed with the flower freshness,negative,product quality
+CUST605,False,14,29.5,413.0,two year,credit card,Flowers always arrive in perfect condition,positive,product quality
+CUST606,True,2,29.0,58.0,month-to-month,mailed check,Too pricey for what's offered,negative,price complaints
+CUST607,False,17,28.0,476.0,one year,electronic check,Always a wonderful experience,positive,general feedback
+CUST608,True,3,30.5,91.5,month-to-month,credit card,Expected more variety,negative,bouquet preferences
+CUST609,False,19,27.5,522.5,two year,mailed check,Subscription brings joy every month,positive,general feedback
+CUST610,True,4,32.0,128.0,month-to-month,electronic check,Not satisfied with the bouquet size,negative,price complaints
+CUST611,False,21,26.5,556.5,one year,credit card,Always happy with the flower quality,positive,product quality
+CUST612,True,1,35.0,35.0,month-to-month,bank transfer,Disappointed with the flower freshness,negative,product quality
+CUST613,False,13,29.0,377.0,two year,mailed check,Great customer service,positive,product quality
+CUST614,True,2,29.5,59.0,month-to-month,electronic check,Too costly for the bouquet size,negative,product quality
+CUST615,False,18,28.0,504.0,one year,credit card,Consistently impressed with the bouquets,positive,product quality
+CUST616,True,3,30.5,91.5,month-to-month,mailed check,Not satisfied with the delivery,negative,product quality
+CUST617,False,16,27.99,447.84,two year,electronic check,Subscription is a great value,positive,product quality
+CUST618,True,4,32.0,128.0,month-to-month,credit card,Quality has declined,negative,product quality
+CUST619,False,12,29.0,348.0,one year,electronic check,Very happy with the service,positive,product quality
+CUST620,True,5,33.5,167.5,month-to-month,mailed check,Not enough variety in bouquets,negative,product quality
+CUST621,False,10,30.5,305.0,two year,credit card,Flowers always arrive fresh and beautiful,positive,product quality
+CUST622,True,6,30.0,180.0,month-to-month,electronic check,Too expensive for the quality,negative,price complaints
+CUST623,False,22,26.5,583.0,one year,mailed check,Consistently high-quality flowers,positive,product quality
+CUST624,True,7,31.0,217.0,month-to-month,credit card,Expected better quality bouquets,negative,product quality
+CUST625,False,15,27.99,419.85,two year,electronic check,Highly recommend this service,positive,general feedback
+CUST626,True,8,34.5,276.0,month-to-month,electronic check,Not happy with the flower variety,negative,bouquet preferences
+CUST627,False,11,28.5,313.5,one year,credit card,Always satisfied with the bouquets,positive,bouquet preferences
+CUST628,True,1,35.0,35.0,month-to-month,mailed check,Disappointed with the flower quality,negative,product quality
+CUST629,False,17,28.0,476.0,two year,electronic check,Subscription brings joy every month,positive,general feedback
+CUST630,True,2,29.5,59.0,month-to-month,credit card,Too costly for the bouquet size,negative,price complaints
+CUST631,False,19,27.5,522.5,one year,mailed check,Consistently great flower quality,negative,product quality
+CUST632,True,3,30.0,90.0,month-to-month,electronic check,Not satisfied with the delivery,negative,delivery issues
+CUST633,False,14,29.5,413.0,two year,credit card,Great customer service and flowers,negative,customer service
+CUST634,True,4,32.0,128.0,month-to-month,mailed check,Expected better quality,negative,product quality
+CUST635,False,20,27.5,550.0,one year,credit card,Always impressed with the bouquets,negative,bouquet preferences
+CUST636,True,5,33.5,167.5,month-to-month,electronic check,Not happy with the flower variety,negative,bouquet preferences
+CUST637,False,11,28.5,313.5,two year,mailed check,Always a joy to receive,negative,general feedback
+CUST638,True,6,30.0,180.0,month-to-month,credit card,Too expensive for the quality,negative,price complaints
+CUST639,False,13,29.0,377.0,one year,electronic check,Very satisfied with the service,negative,general feedback
+CUST640,True,7,31.0,217.0,month-to-month,mailed check,Disappointed with the flower freshness,negative,product quality
+CUST641,False,10,30.5,305.0,two year,credit card,Flowers always arrive fresh,negative,product quality
+CUST642,True,1,35.5,35.5,month-to-month,mailed check,Not satisfied with the service,negative,customer service
+CUST643,False,15,27.99,419.85,one year,credit card,High-quality flowers every time,negative,product quality
+CUST644,True,2,29.0,58.0,month-to-month,electronic check,Too costly for the bouquet size,negative,price complaints
+CUST645,False,18,28.0,504.0,two year,mailed check,Subscription is a great value,negative,price appreciation
+CUST646,True,3,30.5,91.5,month-to-month,credit card,Not impressed with the flower variety,negative,bouquet preferences
+CUST647,False,16,27.5,440.0,one year,electronic check,Always pleased with the service,negative,general feedback
+CUST648,True,4,32.0,128.0,month-to-month,mailed check,Expected better quality,negative,product quality
+CUST649,False,12,29.0,348.0,two year,credit card,Flowers are always a pleasant surprise,negative,general feedback
+CUST650,True,5,33.5,167.5,month-to-month,electronic check,Not worth the monthly fee,negative,price complaints
+CUST651,False,20,27.5,550.0,one year,mailed check,Highly recommend for flower lovers,positive,general feedback
+CUST652,True,6,30.0,180.0,month-to-month,credit card,Quality not as expected,negative,general feedback
+CUST653,False,22,26.5,583.0,two year,bank transfer,Love the monthly flower surprise,positive,general feedback
+CUST654,True,7,31.0,217.0,month-to-month,mailed check,Too expensive for the offering,negative,general feedback
+CUST655,False,11,28.5,313.5,one year,credit card,Very satisfied with the bouquets,positive,general feedback
+CUST656,True,8,34.5,276.0,month-to-month,electronic check,Not happy with the delivery service,negative,general feedback
+CUST657,False,10,30.0,300.0,one year,mailed check,Subscription is a great treat,positive,general feedback
+CUST658,True,1,35.0,35.0,month-to-month,bank transfer,Disappointed with the flower freshness,negative,general feedback
+CUST659,False,14,29.5,413.0,two year,credit card,Flowers always arrive in perfect condition,positive,general feedback
+CUST660,True,2,29.0,58.0,month-to-month,mailed check,Too pricey for what's offered,negative,general feedback
+CUST661,False,17,28.0,476.0,one year,electronic check,Always a wonderful experience,positive,general feedback
+CUST662,True,3,30.5,91.5,month-to-month,credit card,Expected more variety,negative,general feedback
+CUST663,False,19,27.5,522.5,two year,mailed check,Subscription brings joy every month,positive,general feedback
+CUST664,True,4,32.0,128.0,month-to-month,electronic check,Not satisfied with the bouquet size,negative,price complaints
+CUST665,False,21,26.5,556.5,one year,credit card,Always happy with the flower quality,positive,product quality
+CUST666,True,1,35.0,35.0,month-to-month,bank transfer,Disappointed with the flower freshness,negative,product quality
+CUST667,False,13,29.0,377.0,two year,mailed check,Great customer service,positive,customer service
+CUST668,True,2,29.5,59.0,month-to-month,electronic check,Too costly for the bouquet size,negative,price complaints
+CUST669,False,18,28.0,504.0,one year,credit card,Consistently impressed with the bouquets,positive,bouquet preferences
+CUST670,True,3,30.5,91.5,month-to-month,mailed check,Not satisfied with the delivery,negative,delivery issues
+CUST671,False,16,27.99,447.84,two year,electronic check,Subscription is a great value,positive,price appreciation
+CUST672,True,4,32.0,128.0,month-to-month,credit card,Quality has declined,negative,product quality
+CUST673,False,12,29.0,348.0,one year,electronic check,Very happy with the service,positive,general feedback
+CUST674,True,5,33.5,167.5,month-to-month,mailed check,Not enough variety in bouquets,negative,bouquet preferences
+CUST675,False,10,30.5,305.0,two year,credit card,Flowers always arrive fresh and beautiful,positive,product quality
+CUST676,True,6,30.0,180.0,month-to-month,electronic check,Too expensive for the quality,negative,price complaints
+CUST677,False,22,26.5,583.0,one year,mailed check,Consistently high-quality flowers,positive,product quality
+CUST678,True,7,31.0,217.0,month-to-month,credit card,Expected better quality bouquets,negative,product quality
+CUST679,False,15,27.99,419.85,two year,electronic check,Highly recommend this service,positive,general feedback
+CUST680,True,8,34.5,276.0,month-to-month,electronic check,Not happy with the flower variety,negative,bouquet preferences
+CUST681,False,11,28.5,313.5,one year,credit card,Always satisfied with the bouquets,positive,bouquet preferences
+CUST682,True,1,35.0,35.0,month-to-month,mailed check,Disappointed with the flower quality,negative,product quality
+CUST683,False,17,28.0,476.0,two year,electronic check,Subscription brings joy every month,positive,general feedback
+CUST684,True,2,29.5,59.0,month-to-month,credit card,Too costly for the bouquet size,negative,price complaints
+CUST685,False,19,27.5,522.5,one year,mailed check,Consistently great flower quality,positive,product quality
+CUST686,True,3,30.0,90.0,month-to-month,electronic check,Not satisfied with the delivery,negative,delivery issues
+CUST687,False,14,29.5,413.0,two year,credit card,Great customer service and flowers,positive,customer service
+CUST688,True,4,32.0,128.0,month-to-month,mailed check,Expected better quality,negative,product quality
+CUST689,False,20,27.5,550.0,one year,credit card,Always impressed with the bouquets,positive,bouquet preferences
+CUST690,True,5,33.5,167.5,month-to-month,electronic check,Not happy with the flower variety,negative,bouquet preferences
+CUST691,False,11,28.5,313.5,two year,mailed check,Always a joy to receive,positive,general feedback
+CUST692,True,6,30.0,180.0,month-to-month,credit card,Too expensive for the quality,negative,price complaints
+CUST693,False,13,29.0,377.0,one year,electronic check,Very satisfied with the service,positive,general feedback
+CUST694,True,7,31.0,217.0,month-to-month,mailed check,Disappointed with the flower freshness,negative,product quality
+CUST695,False,10,30.5,305.0,two year,credit card,Flowers always arrive fresh,positive,product quality
+CUST696,True,1,35.5,35.5,month-to-month,mailed check,Not satisfied with the service,negative,customer service
+CUST697,False,15,27.99,419.85,one year,credit card,High-quality flowers every time,positive,product quality
+CUST698,True,2,29.0,58.0,month-to-month,electronic check,Too costly for the bouquet size,negative,price complaints
+CUST699,False,18,28.0,504.0,two year,mailed check,Subscription is a great value,positive,price appreciation
+CUST700,True,3,30.5,91.5,month-to-month,credit card,Not impressed with the flower variety,negative,bouquet preferences
+CUST701,False,16,27.5,440.0,one year,electronic check,Always pleased with the service,positive,general feedback
+CUST702,True,4,32.0,128.0,month-to-month,mailed check,Expected better quality,negative,product quality
+CUST703,False,12,29.0,348.0,two year,credit card,Flowers are always a pleasant surprise,positive,general feedback
+CUST704,True,5,33.5,167.5,month-to-month,electronic check,Not worth the monthly fee,negative,price complaints
+CUST705,False,20,27.5,550.0,one year,mailed check,Highly recommend for flower lovers,positive,general feedback
+CUST706,True,6,30.0,180.0,month-to-month,credit card,Quality not as expected,negative,product quality
+CUST707,False,22,26.5,583.0,two year,bank transfer,Love the monthly flower surprise,positive,general feedback
+CUST708,True,7,31.0,217.0,month-to-month,mailed check,Too expensive for the offering,negative,price complaints
+CUST709,False,11,28.5,313.5,one year,credit card,Very satisfied with the bouquets,positive,bouquet preferences
+CUST710,True,8,34.5,276.0,month-to-month,electronic check,Not happy with the delivery service,negative,delivery issues
+CUST711,False,10,30.0,300.0,one year,mailed check,Subscription is a great treat,positive,general feedback
+CUST712,True,1,35.0,35.0,month-to-month,bank transfer,Disappointed with the flower freshness,negative,product quality
+CUST713,False,14,29.5,413.0,two year,credit card,Flowers always arrive in perfect condition,positive,product quality
+CUST714,True,2,29.0,58.0,month-to-month,mailed check,Too pricey for what's offered,negative,price complaints
+CUST715,False,17,28.0,476.0,one year,electronic check,Always a wonderful experience,positive,general feedback
+CUST716,True,3,30.5,91.5,month-to-month,credit card,Expected more variety,negative,bouquet preferences
+CUST717,False,19,27.5,522.5,two year,mailed check,Subscription brings joy every month,positive,general feedback
+CUST718,True,4,32.0,128.0,month-to-month,electronic check,Not satisfied with the bouquet size,negative,price complaints
+CUST719,False,21,26.5,556.5,one year,credit card,Always happy with the flower quality,positive,product quality
+CUST720,True,1,35.0,35.0,month-to-month,bank transfer,Disappointed with the flower freshness,negative,product quality
+CUST721,False,13,29.0,377.0,two year,mailed check,Great customer service,positive,customer service
+CUST722,True,2,29.5,59.0,month-to-month,electronic check,Too costly for the bouquet size,negative,price complaints
+CUST723,False,18,28.0,504.0,one year,credit card,Consistently impressed with the bouquets,positive,bouquet preferences
+CUST724,True,3,30.5,91.5,month-to-month,mailed check,Not satisfied with the delivery,negative,delivery issues
+CUST725,False,16,27.99,447.84,two year,electronic check,Subscription is a great value,positive,price appreciation
+CUST726,True,4,32.0,128.0,month-to-month,credit card,Quality has declined,negative,product quality
+CUST727,False,12,29.0,348.0,one year,electronic check,Very happy with the service,positive,general feedback
+CUST728,True,5,33.5,167.5,month-to-month,mailed check,Not enough variety in bouquets,negative,bouquet preferences
+CUST729,False,10,30.5,305.0,two year,credit card,Flowers always arrive fresh and beautiful,positive,product quality
+CUST730,True,6,30.0,180.0,month-to-month,electronic check,Too expensive for the quality,negative,price complaints
+CUST731,False,22,26.5,583.0,one year,mailed check,Consistently high-quality flowers,positive,product quality
+CUST732,True,7,31.0,217.0,month-to-month,credit card,Expected better quality bouquets,negative,product quality
+CUST733,False,15,27.99,419.85,two year,electronic check,Highly recommend this service,positive,general feedback
+CUST734,True,8,34.5,276.0,month-to-month,electronic check,Not happy with the flower variety,negative,bouquet preferences
+CUST735,False,11,28.5,313.5,one year,credit card,Always satisfied with the bouquets,positive,bouquet preferences
+CUST736,True,1,35.0,35.0,month-to-month,mailed check,Disappointed with the flower quality,negative,product quality
+CUST737,False,17,28.0,476.0,two year,electronic check,Subscription brings joy every month,positive,general feedback
+CUST738,True,2,29.5,59.0,month-to-month,credit card,Too costly for the bouquet size,negative,price complaints
+CUST739,False,19,27.5,522.5,one year,mailed check,Consistently great flower quality,positive,product quality
+CUST740,True,3,30.0,90.0,month-to-month,electronic check,Not satisfied with the delivery,negative,delivery issues
+CUST741,False,14,29.5,413.0,two year,credit card,Great customer service and flowers,positive,customer service
+CUST742,True,4,32.0,128.0,month-to-month,mailed check,Expected better quality,negative,product quality
+CUST743,False,20,27.5,550.0,one year,credit card,Always impressed with the bouquets,positive,bouquet preferences
+CUST744,True,5,33.5,167.5,month-to-month,electronic check,,negative,bouquet preferences
+CUST745,False,11,28.5,313.5,two year,mailed check,,positive,
+CUST746,True,6,30.0,180.0,month-to-month,credit card,,negative,
+CUST747,False,13,29.0,377.0,one year,electronic check,,positive,
+CUST748,True,7,31.0,217.0,month-to-month,mailed check,,negative,product quality
+CUST749,False,10,30.5,305.0,two year,credit card,,positive,product quality
+CUST750,True,1,35.5,35.5,month-to-month,mailed check,Not satisfied with the service,negative,customer service
+CUST751,False,15,27.99,419.85,one year,credit card,High-quality flowers every time,positive,product quality
+CUST752,True,2,29.0,58.0,month-to-month,electronic check,Too costly for the bouquet size,negative,price complaints
+CUST753,False,18,28.0,504.0,two year,mailed check,Subscription is a great value,positive,price appreciation
+CUST754,True,3,30.5,91.5,month-to-month,credit card,Not impressed with the flower variety,negative,bouquet preferences
+CUST755,False,16,27.5,440.0,one year,electronic check,Always pleased with the service,positive,general feedback
+CUST756,True,4,32.0,128.0,month-to-month,mailed check,Expected better quality,negative,product quality
+CUST757,False,12,29.0,348.0,two year,credit card,Flowers are always a pleasant surprise,positive,general feedback
+CUST758,True,5,33.5,167.5,month-to-month,electronic check,Not worth the monthly fee,negative,price complaints
+CUST759,False,20,27.5,550.0,one year,mailed check,Highly recommend for flower lovers,positive,general feedback
+CUST760,True,6,30.0,180.0,month-to-month,credit card,Quality not as expected,negative,product quality
+CUST761,False,22,26.5,583.0,two year,bank transfer,Love the monthly flower surprise,positive,general feedback
+CUST762,True,7,31.0,217.0,month-to-month,mailed check,Too expensive for the offering,negative,price complaints
+CUST763,False,11,28.5,313.5,one year,credit card,Very satisfied with the bouquets,positive,bouquet preferences
+CUST764,True,8,34.5,276.0,month-to-month,electronic check,Not happy with the delivery service,negative,delivery issues
+CUST765,False,10,30.0,300.0,one year,mailed check,Subscription is a great treat,positive,general feedback
+CUST766,True,1,35.0,35.0,month-to-month,bank transfer,Disappointed with the flower freshness,negative,product quality
+CUST767,False,14,29.5,413.0,two year,credit card,Flowers always arrive in perfect condition,positive,product quality
+CUST768,True,2,29.0,58.0,month-to-month,mailed check,Too pricey for what's offered,negative,price complaints
+CUST769,False,17,28.0,476.0,one year,electronic check,Always a wonderful experience,positive,general feedback
+CUST770,True,3,30.5,91.5,month-to-month,credit card,Expected more variety,negative,bouquet preferences
+CUST771,False,19,27.5,522.5,two year,mailed check,Subscription brings joy every month,positive,general feedback
+CUST772,True,4,32.0,128.0,month-to-month,electronic check,Not satisfied with the bouquet size,negative,price complaints
+CUST773,False,21,26.5,556.5,one year,credit card,Always happy with the flower quality,positive,product quality
+CUST774,True,1,35.0,35.0,month-to-month,bank transfer,Disappointed with the flower freshness,negative,product quality
+CUST775,False,13,29.0,377.0,two year,mailed check,Great customer service,positive,customer service
+CUST776,True,2,29.5,59.0,month-to-month,electronic check,Too costly for the bouquet size,negative,price complaints
+CUST777,False,18,28.0,504.0,one year,credit card,Consistently impressed with the bouquets,positive,bouquet preferences
+CUST778,True,3,30.5,91.5,month-to-month,mailed check,Not satisfied with the delivery,negative,delivery issues
+CUST779,False,16,27.99,447.84,two year,electronic check,Subscription is a great value,positive,price appreciation
+CUST780,True,4,32.0,128.0,month-to-month,credit card,Quality has declined,negative,product quality
+CUST781,False,12,29.0,348.0,one year,electronic check,Very happy with the service,positive,general feedback
+CUST782,True,5,33.5,167.5,month-to-month,mailed check,Not enough variety in bouquets,negative,bouquet preferences
+CUST783,False,10,30.5,305.0,two year,credit card,Flowers always arrive fresh and beautiful,positive,product quality
+CUST784,True,6,30.0,180.0,month-to-month,electronic check,Too expensive for the quality,negative,price complaints
+CUST785,False,22,26.5,583.0,one year,mailed check,Consistently high-quality flowers,positive,product quality
+CUST786,True,7,31.0,217.0,month-to-month,credit card,Expected better quality bouquets,negative,product quality
+CUST787,False,15,27.99,419.85,two year,electronic check,Highly recommend this service,positive,general feedback
+CUST788,True,8,34.5,276.0,month-to-month,electronic check,Not happy with the flower variety,negative,bouquet preferences
+CUST789,False,11,28.5,313.5,one year,credit card,Always satisfied with the bouquets,positive,bouquet preferences
+CUST790,True,1,35.0,35.0,month-to-month,mailed check,Disappointed with the flower quality,negative,product quality
+CUST791,False,17,28.0,476.0,two year,electronic check,Subscription brings joy every month,positive,general feedback
+CUST792,True,2,29.5,59.0,month-to-month,credit card,Too costly for the bouquet size,negative,price complaints
+CUST793,False,19,27.5,522.5,one year,mailed check,Consistently great flower quality,positive,product quality
+CUST794,True,3,30.0,90.0,month-to-month,electronic check,Not satisfied with the delivery,negative,delivery issues
+CUST795,False,14,29.5,413.0,two year,credit card,Great customer service and flowers,positive,customer service
+CUST796,True,4,32.0,128.0,month-to-month,mailed check,Expected better quality,negative,product quality
+CUST797,False,20,27.5,550.0,one year,credit card,Always impressed with the bouquets,positive,bouquet preferences
+CUST798,True,5,33.5,167.5,month-to-month,electronic check,Not happy with the flower variety,negative,bouquet preferences
+CUST799,False,11,28.5,313.5,two year,mailed check,Always a joy to receive,positive,general feedback
+CUST800,True,6,30.0,180.0,month-to-month,credit card,Too expensive for the quality,negative,price complaints
+CUST801,False,13,29.0,377.0,one year,electronic check,Very satisfied with the service,positive,general feedback
+CUST802,True,7,31.0,217.0,month-to-month,mailed check,Disappointed with the flower freshness,negative,product quality
+CUST803,False,10,30.5,305.0,two year,credit card,Flowers always arrive fresh,positive,product quality
+CUST804,True,1,35.5,35.5,month-to-month,mailed check,Not satisfied with the service,negative,customer service
+CUST805,False,15,27.99,419.85,one year,credit card,High-quality flowers every time,positive,product quality
+CUST806,True,2,29.0,58.0,month-to-month,electronic check,Too costly for the bouquet size,negative,price complaints
+CUST807,False,18,28.0,504.0,two year,mailed check,Subscription is a great value,positive,price appreciation
+CUST808,True,3,30.5,91.5,month-to-month,credit card,Not impressed with the flower variety,negative,bouquet preferences
+CUST809,False,16,27.5,440.0,one year,electronic check,Always pleased with the service,positive,general feedback
+CUST810,True,4,32.0,128.0,month-to-month,mailed check,Expected better quality,negative,product quality
+CUST811,False,12,29.0,348.0,two year,credit card,Flowers are always a pleasant surprise,positive,general feedback
+CUST812,True,5,33.5,167.5,month-to-month,electronic check,Not worth the monthly fee,negative,price complaints
+CUST813,True,20,27.5,550.0,one year,mailed check,Highly recommend for flower lovers,positive,general feedback
+CUST814,True,6,30.0,180.0,month-to-month,credit card,Quality not as expected,negative,product quality
+CUST815,True,22,26.5,583.0,two year,bank transfer,Love the monthly flower surprise,positive,general feedback
+CUST816,True,7,31.0,217.0,month-to-month,mailed check,Too expensive for the offering,negative,price complaints
+CUST817,True,11,28.5,313.5,one year,credit card,Very satisfied with the bouquets,positive,bouquet preferences
+CUST818,True,8,34.5,276.0,month-to-month,electronic check,Not happy with the delivery service,negative,delivery issues
+CUST819,True,10,30.0,300.0,one year,mailed check,Subscription is a great treat,positive,general feedback
+CUST820,True,1,35.0,35.0,month-to-month,bank transfer,Disappointed with the flower freshness,negative,product quality
+CUST821,True,14,29.5,413.0,two year,credit card,Flowers always arrive in perfect condition,positive,product quality
+CUST822,True,2,29.0,58.0,month-to-month,mailed check,Too pricey for what's offered,negative,price complaints
+CUST823,True,17,28.0,476.0,one year,electronic check,Always a wonderful experience,positive,general feedback
+CUST824,True,3,30.5,91.5,month-to-month,credit card,Expected more variety,negative,bouquet preferences
+CUST825,True,19,27.5,522.5,two year,mailed check,Subscription brings joy every month,positive,general feedback
+CUST826,True,4,32.0,128.0,month-to-month,electronic check,Not satisfied with the bouquet size,negative,price complaints
+CUST827,True,21,26.5,556.5,one year,credit card,Always happy with the flower quality,positive,product quality
+CUST828,True,1,35.0,35.0,month-to-month,bank transfer,Disappointed with the flower freshness,negative,product quality
+CUST829,True,13,29.0,377.0,two year,mailed check,Great customer service,positive,customer service
+CUST830,True,2,29.5,59.0,month-to-month,electronic check,Too costly for the bouquet size,negative,price complaints
+CUST831,True,18,28.0,504.0,one year,credit card,Consistently impressed with the bouquets,positive,bouquet preferences
+CUST832,True,3,30.5,91.5,month-to-month,mailed check,Not satisfied with the delivery,negative,delivery issues
+CUST833,True,16,27.99,447.84,two year,electronic check,Subscription is a great value,positive,price appreciation
+CUST834,True,4,32.0,128.0,month-to-month,credit card,Quality has declined,negative,product quality
+CUST835,True,12,29.0,348.0,one year,electronic check,Very happy with the service,positive,general feedback
+CUST836,True,5,33.5,167.5,month-to-month,mailed check,Not enough variety in bouquets,negative,bouquet preferences
+CUST837,True,10,30.5,305.0,two year,credit card,Flowers always arrive fresh and beautiful,positive,product quality
+CUST838,True,6,30.0,180.0,month-to-month,electronic check,Too expensive for the quality,negative,price complaints
+CUST839,True,22,26.5,583.0,one year,mailed check,Consistently high-quality flowers,positive,product quality
+CUST840,True,7,31.0,217.0,month-to-month,credit card,Expected better quality bouquets,negative,product quality
+CUST841,True,15,27.99,419.85,two year,electronic check,Highly recommend this service,positive,general feedback
+CUST842,True,8,34.5,276.0,month-to-month,electronic check,Not happy with the flower variety,negative,bouquet preferences
+CUST843,True,11,28.5,313.5,one year,credit card,Always satisfied with the bouquets,positive,bouquet preferences
+CUST844,True,1,35.0,35.0,month-to-month,mailed check,Disappointed with the flower quality,negative,product quality
+CUST845,True,17,28.0,476.0,two year,electronic check,Subscription brings joy every month,positive,general feedback
+CUST846,True,2,29.5,59.0,month-to-month,credit card,Too costly for the bouquet size,negative,price complaints
+CUST847,True,19,27.5,522.5,one year,mailed check,Consistently great flower quality,positive,product quality
+CUST848,True,3,30.0,90.0,month-to-month,electronic check,Not satisfied with the delivery,negative,delivery issues
+CUST849,False,14,29.5,413.0,two year,credit card,Great customer service and flowers,positive,customer service
+CUST850,True,4,32.0,128.0,month-to-month,mailed check,Expected better quality,negative,product quality
+CUST851,False,20,27.5,550.0,one year,mailed check,Always impressed with the bouquets,positive,bouquet preferences
+CUST852,True,5,33.5,167.5,month-to-month,electronic check,Not happy with the flower variety,negative,bouquet preferences
+CUST853,False,11,28.5,313.5,two year,mailed check,Always a joy to receive,positive,general feedback
+CUST854,True,6,30.0,180.0,month-to-month,credit card,Too expensive for the quality,negative,price complaints
+CUST855,False,13,29.0,377.0,one year,electronic check,Very satisfied with the service,positive,general feedback
+CUST856,True,7,31.0,217.0,month-to-month,mailed check,Disappointed with the flower freshness,negative,product quality
+CUST857,False,10,30.5,305.0,two year,credit card,Flowers always arrive fresh,positive,product quality
+CUST858,True,1,35.5,35.5,month-to-month,mailed check,Not satisfied with the service,negative,customer service
+CUST859,False,15,27.99,419.85,one year,credit card,High-quality flowers every time,positive,product quality
+CUST860,True,2,29.0,58.0,month-to-month,electronic check,Too costly for the bouquet size,negative,price complaints
+CUST861,True,18,28.0,504.0,two year,mailed check,Subscription is a great value,positive,price appreciation
+CUST862,True,3,30.5,91.5,month-to-month,credit card,Not impressed with the flower variety,negative,bouquet preferences
+CUST863,True,16,27.5,440.0,one year,electronic check,Always pleased with the service,positive,general feedback
+CUST864,True,4,32.0,128.0,month-to-month,mailed check,Expected better quality,negative,product quality
+CUST865,True,12,29.0,348.0,two year,credit card,Flowers are always a pleasant surprise,positive,general feedback
+CUST866,True,5,33.5,167.5,month-to-month,electronic check,Not worth the monthly fee,negative,price complaints
+CUST867,True,20,27.5,550.0,one year,mailed check,Highly recommend for flower lovers,positive,general feedback
+CUST868,True,6,30.0,180.0,month-to-month,credit card,Quality not as expected,negative,product quality
+CUST869,False,22,26.5,583.0,two year,bank transfer,Love the monthly flower surprise,positive,general feedback
+CUST870,True,7,31.0,217.0,month-to-month,mailed check,Too expensive for the offering,negative,price complaints
+CUST871,False,11,28.5,313.5,one year,credit card,Very satisfied with the bouquets,positive,bouquet preferences
+CUST872,False,8,34.5,276.0,month-to-month,electronic check,Not happy with the delivery service,negative,delivery issues
+CUST873,False,10,30.0,300.0,one year,mailed check,Subscription is a great treat,positive,general feedback
+CUST874,False,1,35.0,35.0,month-to-month,bank transfer,Disappointed with the flower freshness,negative,product quality
+CUST875,False,14,29.5,413.0,two year,credit card,Flowers always arrive in perfect condition,positive,product quality
+CUST876,False,2,29.0,58.0,month-to-month,mailed check,Too pricey for what's offered,negative,price complaints
+CUST877,False,17,28.0,476.0,one year,electronic check,Always a wonderful experience,positive,general feedback
+CUST878,False,3,30.5,91.5,month-to-month,credit card,Expected more variety,negative,bouquet preferences
+CUST879,False,19,27.5,522.5,two year,mailed check,Subscription brings joy every month,positive,general feedback
+CUST880,False,4,32.0,128.0,month-to-month,electronic check,Not satisfied with the bouquet size,negative,price complaints
+CUST881,False,21,26.5,556.5,one year,credit card,Always happy with the flower quality,positive,product quality
+CUST882,False,1,35.0,35.0,month-to-month,bank transfer,Disappointed with the flower freshness,negative,product quality
+CUST883,False,13,29.0,377.0,two year,mailed check,Great customer service,positive,customer service
+CUST884,False,2,29.5,59.0,month-to-month,electronic check,Too costly for the bouquet size,negative,price complaints
+CUST885,False,18,28.0,504.0,one year,credit card,Consistently impressed with the bouquets,positive,bouquet preferences
+CUST886,False,3,30.5,91.5,month-to-month,mailed check,Not satisfied with the delivery,negative,delivery issues
+CUST887,False,16,27.99,447.84,two year,electronic check,Subscription is a great value,positive,price appreciation
+CUST888,False,4,32.0,128.0,month-to-month,credit card,Quality has declined,negative,product quality
+CUST889,False,12,29.0,348.0,one year,electronic check,Very happy with the service,positive,general feedback
+CUST890,False,5,33.5,167.5,month-to-month,mailed check,Not enough variety in bouquets,negative,bouquet preferences
+CUST891,False,10,30.5,305.0,two year,credit card,Flowers always arrive fresh and beautiful,positive,product quality
+CUST892,False,6,30.0,180.0,month-to-month,electronic check,Too expensive for the quality,negative,price complaints
+CUST893,False,22,26.5,583.0,one year,mailed check,Consistently high-quality flowers,positive,product quality
+CUST894,False,7,31.0,217.0,month-to-month,credit card,Expected better quality bouquets,negative,product quality
+CUST895,False,15,27.99,419.85,two year,electronic check,Highly recommend this service,positive,general feedback
+CUST896,False,8,34.5,276.0,month-to-month,electronic check,Not happy with the flower variety,negative,bouquet preferences
+CUST897,False,11,28.5,313.5,one year,credit card,Always satisfied with the bouquets,positive,bouquet preferences
+CUST898,False,1,35.0,35.0,month-to-month,mailed check,Disappointed with the flower quality,negative,product quality
+CUST899,False,17,28.0,476.0,two year,electronic check,Subscription brings joy every month,positive,general feedback
+CUST900,False,2,29.5,59.0,month-to-month,credit card,Too costly for the bouquet size,negative,price complaints
+CUST901,False,19,27.5,522.5,two year,mailed check,Consistently great flower quality,positive,product quality
+CUST902,False,3,30.0,90.0,month-to-month,electronic check,Not satisfied with the delivery,negative,delivery issues
+CUST903,False,14,29.5,413.0,two year,credit card,Great customer service and flowers,positive,customer service
+CUST904,False,4,32.0,128.0,month-to-month,mailed check,Expected better quality,negative,product quality
+CUST905,False,20,27.5,550.0,one year,credit card,Always impressed with the bouquets,positive,bouquet preferences
+CUST906,False,5,33.5,167.5,month-to-month,electronic check,Not happy with the flower variety,negative,bouquet preferences
+CUST907,False,11,28.5,313.5,two year,mailed check,Always a joy to receive,positive,general feedback
+CUST908,False,6,30.0,180.0,month-to-month,credit card,Too expensive for the quality,negative,price complaints
+CUST909,False,13,29.0,377.0,one year,electronic check,Very satisfied with the service,positive,general feedback
+CUST910,False,7,31.0,217.0,month-to-month,mailed check,Disappointed with the flower freshness,negative,product quality
+CUST911,False,10,30.5,305.0,two year,credit card,Flowers always arrive fresh,positive,product quality
+CUST912,True,1,35.5,35.5,month-to-month,mailed check,Not satisfied with the service,negative,customer service
+CUST913,False,15,27.99,419.85,one year,credit card,High-quality flowers every time,positive,product quality
+CUST914,True,2,29.0,58.0,month-to-month,electronic check,Too costly for the bouquet size,negative,price complaints
+CUST915,False,18,28.0,504.0,two year,mailed check,Subscription is a great value,positive,price appreciation
+CUST916,True,3,30.5,91.5,month-to-month,credit card,Not impressed with the flower variety,negative,bouquet preferences
+CUST917,False,16,27.5,440.0,one year,electronic check,Always pleased with the service,positive,general feedback
+CUST918,True,4,32.0,128.0,month-to-month,mailed check,Expected better quality,negative,product quality
+CUST919,False,12,29.0,348.0,two year,credit card,Flowers are always a pleasant surprise,positive,general feedback
+CUST920,True,5,33.5,167.5,month-to-month,electronic check,Not worth the monthly fee,negative,price complaints
+CUST921,False,20,27.5,550.0,one year,mailed check,Highly recommend for flower lovers,positive,general feedback
+CUST922,True,6,30.0,180.0,month-to-month,credit card,Quality not as expected,negative,product quality
+CUST923,False,22,26.5,583.0,two year,bank transfer,Love the monthly flower surprise,positive,general feedback
+CUST924,True,7,31.0,217.0,month-to-month,mailed check,Too expensive for the offering,negative,price complaints
+CUST925,False,11,28.5,313.5,one year,credit card,Very satisfied with the bouquets,positive,bouquet preferences
+CUST926,True,8,34.5,276.0,month-to-month,electronic check,Not happy with the delivery service,negative,delivery issues
+CUST927,False,10,30.0,300.0,one year,mailed check,Subscription is a great treat,positive,general feedback
+CUST928,True,1,35.0,35.0,month-to-month,bank transfer,Disappointed with the flower freshness,negative,product quality
+CUST929,False,14,29.5,413.0,two year,credit card,Flowers always arrive in perfect condition,positive,product quality
+CUST930,True,2,29.0,58.0,month-to-month,mailed check,Too pricey for what's offered,negative,price complaints
+CUST931,False,17,28.0,476.0,one year,electronic check,Always a wonderful experience,positive,general feedback
+CUST932,True,3,30.5,91.5,month-to-month,credit card,Expected more variety,negative,bouquet preferences
+CUST933,False,19,27.5,522.5,two year,mailed check,Subscription brings joy every month,positive,general feedback
+CUST934,True,4,32.0,128.0,month-to-month,electronic check,Not satisfied with the bouquet size,negative,price complaints
+CUST935,False,21,26.5,556.5,one year,credit card,Always happy with the flower quality,positive,product quality
+CUST936,True,1,35.0,35.0,month-to-month,bank transfer,Disappointed with the flower freshness,negative,product quality
+CUST937,False,13,29.0,377.0,two year,mailed check,Great customer service,positive,customer service
+CUST938,True,2,29.5,59.0,month-to-month,electronic check,Too costly for the bouquet size,negative,price complaints
+CUST939,False,18,28.0,504.0,one year,credit card,Consistently impressed with the bouquets,positive,bouquet preferences
+CUST940,True,3,30.5,91.5,month-to-month,mailed check,Not satisfied with the delivery,negative,delivery issues
+CUST941,False,16,27.99,447.84,two year,electronic check,Subscription is a great value,positive,price appreciation
+CUST942,True,4,32.0,128.0,month-to-month,credit card,Quality has declined,negative,product quality
+CUST943,False,12,29.0,348.0,one year,electronic check,Very happy with the service,positive,general feedback
+CUST944,True,5,33.5,167.5,month-to-month,mailed check,Not enough variety in bouquets,negative,bouquet preferences
+CUST945,False,10,30.5,305.0,two year,credit card,Flowers always arrive fresh and beautiful,positive,product quality
+CUST946,True,6,30.0,180.0,month-to-month,electronic check,Too expensive for the quality,negative,price complaints
+CUST947,False,22,26.5,583.0,one year,mailed check,Consistently high-quality flowers,positive,product quality
+CUST948,True,7,31.0,217.0,month-to-month,credit card,Expected better quality bouquets,negative,product quality
+CUST949,False,15,27.99,419.85,two year,electronic check,Highly recommend this service,positive,general feedback
+CUST950,True,8,34.5,276.0,month-to-month,electronic check,,negative,bouquet preferences
+CUST951,False,11,28.5,313.5,one year,credit card,,positive,bouquet preferences
+CUST952,True,1,35.0,35.0,month-to-month,mailed check,,negative,product quality
+CUST953,False,17,28.0,476.0,two year,electronic check,Subscription brings joy every month,positive,general feedback
+CUST954,True,2,29.5,59.0,month-to-month,credit card,Too costly for the bouquet size,negative,price complaints
+CUST955,False,19,27.5,522.5,one year,mailed check,Consistently great flower quality,positive,product quality
+CUST956,True,3,30.0,90.0,month-to-month,electronic check,Not satisfied with the delivery,negative,delivery issues
+CUST957,False,14,29.5,413.0,two year,credit card,Great customer service and flowers,positive,customer service
+CUST958,True,4,32.0,128.0,month-to-month,mailed check,Expected better quality,negative,product quality
+CUST959,False,20,27.5,550.0,one year,credit card,Always impressed with the bouquets,positive,bouquet preferences
+CUST960,True,5,33.5,167.5,month-to-month,electronic check,Not happy with the flower variety,negative,bouquet preferences
+CUST961,False,11,28.5,313.5,two year,mailed check,Always a joy to receive,positive,general feedback
+CUST962,True,6,30.0,180.0,month-to-month,credit card,Too expensive for the quality,negative,price complaints
+CUST963,False,13,29.0,377.0,one year,electronic check,Very satisfied with the service,positive,general feedback
+CUST964,True,7,31.0,217.0,month-to-month,mailed check,Disappointed with the flower freshness,negative,product quality
+CUST965,False,10,30.5,305.0,two year,credit card,Flowers always arrive fresh,positive,product quality
+CUST966,True,1,35.5,35.5,month-to-month,mailed check,Not satisfied with the service,negative,customer service
+CUST967,False,15,27.99,419.85,one year,credit card,High-quality flowers every time,positive,product quality
+CUST968,True,2,29.0,58.0,month-to-month,electronic check,Too costly for the bouquet size,negative,price complaints
+CUST969,False,18,28.0,504.0,two year,mailed check,Subscription is a great value,positive,price appreciation
+CUST970,True,3,30.5,91.5,month-to-month,credit card,Not impressed with the flower variety,negative,bouquet preferences
+CUST971,False,16,27.5,440.0,one year,electronic check,Always pleased with the service,positive,general feedback
+CUST972,True,4,32.0,128.0,month-to-month,mailed check,Expected better quality,negative,product quality
+CUST973,False,12,29.0,348.0,two year,credit card,Flowers are always a pleasant surprise,positive,general feedback
+CUST974,True,5,33.5,167.5,month-to-month,electronic check,Not worth the monthly fee,negative,price complaints
+CUST975,False,20,27.5,550.0,one year,mailed check,Highly recommend for flower lovers,positive,general feedback
+CUST976,True,6,30.0,180.0,month-to-month,credit card,Quality not as expected,negative,product quality
+CUST977,False,22,26.5,583.0,two year,bank transfer,Love the monthly flower surprise,positive,general feedback
+CUST978,True,7,31.0,217.0,month-to-month,mailed check,Too expensive for the offering,negative,price complaints
+CUST979,False,11,28.5,313.5,one year,credit card,Very satisfied with the bouquets,positive,bouquet preferences
+CUST980,True,8,34.5,276.0,month-to-month,electronic check,,negative,delivery issues
+CUST981,False,10,30.0,300.0,one year,mailed check,,positive,general feedback
+CUST982,True,1,35.0,35.0,month-to-month,bank transfer,,negative,product quality
+CUST983,False,14,29.5,413.0,two year,credit card,Flowers always arrive in perfect condition,positive,product quality
+CUST984,True,2,29.0,58.0,month-to-month,mailed check,Too pricey for what's offered,negative,price complaints
+CUST985,False,17,28.0,476.0,one year,electronic check,Always a wonderful experience,positive,general feedback
+CUST986,True,3,30.5,91.5,month-to-month,credit card,Expected more variety,negative,bouquet preferences
+CUST987,False,19,27.5,522.5,two year,mailed check,Subscription brings joy every month,positive,general feedback
+CUST988,True,4,32.0,128.0,month-to-month,electronic check,Not satisfied with the bouquet size,negative,price complaints
+CUST989,False,21,26.5,556.5,one year,credit card,Always happy with the flower quality,positive,product quality
+CUST990,True,1,35.0,35.0,month-to-month,bank transfer,Disappointed with the flower freshness,negative,product quality
+CUST991,False,13,29.0,377.0,two year,mailed check,Great customer service,positive,customer service
+CUST992,True,2,29.5,59.0,month-to-month,electronic check,Too costly for the bouquet size,negative,price complaints
+CUST993,False,18,28.0,504.0,one year,credit card,Consistently impressed with the bouquets,positive,bouquet preferences
+CUST994,True,3,30.5,91.5,month-to-month,mailed check,Not satisfied with the delivery,negative,delivery issues
+CUST995,False,16,27.99,447.84,two year,electronic check,Subscription is a great value,positive,price appreciation
+CUST996,True,4,32.0,128.0,month-to-month,credit card,Quality has declined,negative,product quality
+CUST997,False,12,29.0,348.0,one year,electronic check,Very happy with the service,positive,general feedback
+CUST998,True,5,33.5,167.5,month-to-month,mailed check,Not enough variety in bouquets,negative,bouquet preferences
+CUST999,False,10,30.5,305.0,two year,credit card,Flowers always arrive fresh and beautiful,positive,product quality
+CUST1000,True,6,30.0,180.0,month-to-month,electronic check,Too expensive for the quality,negative,price complaints
