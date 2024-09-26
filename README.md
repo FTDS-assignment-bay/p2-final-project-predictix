@@ -122,6 +122,8 @@ Our BERT-based model achieves:
 - Validation Accuracy: 94%
 - Test Accuracy: 89%
 
+This is the comparison of the performance of the model with other models:
+
 | Model          | Train Accuracy | Validation Accuracy | Test Accuracy |
 |----------------|----------------|---------------------|---------------|
 | Random Forest  | 92%            | 91%                 | 87%           |
