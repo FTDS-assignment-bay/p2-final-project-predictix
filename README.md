@@ -25,21 +25,31 @@
 
 ## Introduction
 
-Predictix is an app designed to predict the likelihood of customer churn, with the ultimate goal of reducing churn rates and increasing customer satisfaction. By employing Natural Language Processing (NLP), this app will analyze customer feedback and perform classification to predict whether customers will switch to other services or remain loyal customers.
+Predictix is an app designed to predict the likelihood of customer churn, with the ultimate goal of reducing churn rates and increasing customer satisfaction. By employing Natural Language Processing (NLP) and machine learning, this app analyzes customer feedback to predict sentiment, and then uses this sentiment analysis along with other features to predict whether customers will switch to other services or remain loyal.
 
 ### Problem Statement
 
-In today's competitive market, understanding customer sentiment is crucial for business success. However, manually analyzing large volumes of customer feedback is time-consuming and prone to human error. Predictix addresses this challenge by automating the sentiment analysis process, allowing businesses to respond promptly to customer needs and preferences. Then, predictix will predict whether the customer will churn or not using machine learning algorithm based on the sentiment, and other features.
+In today's competitive market, understanding customer sentiment and predicting churn are crucial for business success. However, manually analyzing large volumes of customer feedback and identifying potential churners is time-consuming and prone to human error. Predictix addresses these challenges by automating both the sentiment analysis process and churn prediction, allowing businesses to respond promptly to customer needs and preferences.
 
 ### Objectives
 
 1. Understand customer sentiment through their feedback
 2. Build a model to classify sentiment in customer reviews
-3. Use sentiment analysis to predict customer churn
+3. Use sentiment analysis results, combined with other features, to predict customer churn
 
 ### Proposed Solution
 
-Predictix utilizes advanced NLP algorithms, including BERT, to preprocess and analyze customer feedback data. The system employs techniques such as tokenization, stopword removal, and sentiment classification to provide accurate and timely insights into customer sentiments.
+Predictix utilizes a two-step approach:
+
+1. Sentiment Analysis (`predictix_01_sentiment_analysis.ipynb`):
+   - Uses advanced NLP algorithms, including BERT, to preprocess and analyze customer feedback data
+   - Employs techniques such as tokenization, stopword removal, and sentiment classification
+
+2. Churn Prediction (`predictix_02_churn_classification.ipynb`):
+   - Utilizes the sentiment analysis results as a feature
+   - Combines sentiment with other relevant features to predict customer churn using machine learning algorithms
+
+This approach provides accurate and timely insights into customer sentiments and their likelihood of churning.
 
 ## Installation
 
