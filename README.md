@@ -25,11 +25,11 @@
 
 ## Introduction
 
-Predictix is an advanced Natural Language Processing (NLP) system designed to analyze customer sentiment and predict churn in the florist industry. By leveraging state-of-the-art machine learning techniques, Predictix enables businesses to gain actionable insights from customer feedback, enhancing service quality and fostering customer loyalty.
+Predictix is an app designed to predict the likelihood of customer churn, with the ultimate goal of reducing churn rates and increasing customer satisfaction. By employing Natural Language Processing (NLP), this app will analyze customer feedback and perform classification to predict whether customers will switch to other services or remain loyal customers.
 
 ### Problem Statement
 
-In today's competitive market, understanding customer sentiment is crucial for business success. However, manually analyzing large volumes of customer feedback is time-consuming and prone to human error. Predictix addresses this challenge by automating the sentiment analysis process, allowing businesses to respond promptly to customer needs and preferences.
+In today's competitive market, understanding customer sentiment is crucial for business success. However, manually analyzing large volumes of customer feedback is time-consuming and prone to human error. Predictix addresses this challenge by automating the sentiment analysis process, allowing businesses to respond promptly to customer needs and preferences. Then, predictix will predict whether the customer will churn or not using machine learning algorithm based on the sentiment, and other features.
 
 ### Objectives
 
