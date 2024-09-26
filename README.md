@@ -23,13 +23,7 @@
 
 [Installation](#installation) | [Getting Started](#getting-started) | [Model Architecture](#model-architecture) | [Performance](#performance) | [Contributing](#contributing)
 
-<details>
-  <summary>Latest Updates 🔥</summary>
 
-  - [2024/3/15] We've released v1.0.0 with improved accuracy and faster inference!
-  - [2024/2/28] Predictix now supports multi-language sentiment analysis
-  - [2024/2/1] Added integration with popular CRM systems
-</details>
 
 ## Introduction 🌟
 
@@ -70,7 +64,8 @@ This approach provides accurate and timely insights into customer sentiments and
 - NumPy
 - Scikit-learn
 
-To install Predictix:```bash
+To install Predictix:
+```bash
 git clone https://github.com/ayudhaamari/predictix.git
 cd predictix
 pip install -r requirements.txt
