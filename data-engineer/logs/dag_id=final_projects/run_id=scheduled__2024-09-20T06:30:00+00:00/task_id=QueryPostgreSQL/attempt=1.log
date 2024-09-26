@@ -1,0 +1,36 @@
+[2024-09-24T12:52:54.925+0000] {taskinstance.py:1171} INFO - Dependencies all met for <TaskInstance: final_projects.QueryPostgreSQL scheduled__2024-09-20T06:30:00+00:00 [queued]>
+[2024-09-24T12:52:54.941+0000] {taskinstance.py:1171} INFO - Dependencies all met for <TaskInstance: final_projects.QueryPostgreSQL scheduled__2024-09-20T06:30:00+00:00 [queued]>
+[2024-09-24T12:52:54.941+0000] {taskinstance.py:1368} INFO - 
+--------------------------------------------------------------------------------
+[2024-09-24T12:52:54.941+0000] {taskinstance.py:1369} INFO - Starting attempt 1 of 1
+[2024-09-24T12:52:54.942+0000] {taskinstance.py:1370} INFO - 
+--------------------------------------------------------------------------------
+[2024-09-24T12:52:54.961+0000] {taskinstance.py:1389} INFO - Executing <Task(PythonOperator): QueryPostgreSQL> on 2024-09-20 06:30:00+00:00
+[2024-09-24T12:52:54.973+0000] {standard_task_runner.py:52} INFO - Started process 258 to run task
+[2024-09-24T12:52:54.989+0000] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'final_projects', 'QueryPostgreSQL', 'scheduled__2024-09-20T06:30:00+00:00', '--job-id', '10', '--raw', '--subdir', 'DAGS_FOLDER/final_projects_DAGS.py', '--cfg-path', '/tmp/tmp5sd8wq1f', '--error-file', '/tmp/tmpaiopz62r']
+[2024-09-24T12:52:54.997+0000] {standard_task_runner.py:80} INFO - Job 10: Subtask QueryPostgreSQL
+[2024-09-24T12:52:55.098+0000] {task_command.py:371} INFO - Running <TaskInstance: final_projects.QueryPostgreSQL scheduled__2024-09-20T06:30:00+00:00 [running]> on host a08a8d3729b5
+[2024-09-24T12:52:55.268+0000] {taskinstance.py:1583} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=final_projects
+AIRFLOW_CTX_TASK_ID=QueryPostgreSQL
+AIRFLOW_CTX_EXECUTION_DATE=2024-09-20T06:30:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2024-09-20T06:30:00+00:00
+[2024-09-24T12:52:55.279+0000] {taskinstance.py:1902} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/final_projects_DAGS.py", line 19, in queryPostgresql
+    conn = db.connect(conn_string)
+  File "/home/airflow/.local/lib/python3.7/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: FATAL:  database "final_projects" does not exist
+
+[2024-09-24T12:52:55.302+0000] {taskinstance.py:1412} INFO - Marking task as FAILED. dag_id=final_projects, task_id=QueryPostgreSQL, execution_date=20240920T063000, start_date=20240924T125254, end_date=20240924T125255
+[2024-09-24T12:52:55.318+0000] {standard_task_runner.py:97} ERROR - Failed to execute job 10 for task QueryPostgreSQL (FATAL:  database "final_projects" does not exist
+; 258)
+[2024-09-24T12:52:55.367+0000] {local_task_job.py:156} INFO - Task exited with return code 1
+[2024-09-24T12:52:55.420+0000] {local_task_job.py:279} INFO - 0 downstream tasks scheduled from follow-on schedule check
