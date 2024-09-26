@@ -1,4 +1,4 @@
-# Predictix: Predicting Customer Churn using NLP and Machine Learning
+# Predictix: Predicting Customer Churn using NLP and Machine Learning 🌸🔮
 
 <img src="./predictix.jpg" alt="Predictix Logo">
 
@@ -23,21 +23,29 @@
 
 [Installation](#installation) | [Getting Started](#getting-started) | [Model Architecture](#model-architecture) | [Performance](#performance) | [Contributing](#contributing)
 
-## Introduction
+<details>
+  <summary>Latest Updates 🔥</summary>
+
+  - [2024/3/15] We've released v1.0.0 with improved accuracy and faster inference!
+  - [2024/2/28] Predictix now supports multi-language sentiment analysis
+  - [2024/2/1] Added integration with popular CRM systems
+</details>
+
+## Introduction 🌟
 
 Predictix is an app designed to predict the likelihood of customer churn, with the ultimate goal of reducing churn rates and increasing customer satisfaction. By employing Natural Language Processing (NLP) and machine learning, this app analyzes customer feedback to predict sentiment, and then uses this sentiment analysis along with other features to predict whether customers will switch to other services or remain loyal.
 
-### Problem Statement
+### Problem Statement 🎯
 
 In today's competitive market, understanding customer sentiment and predicting churn are crucial for business success. However, manually analyzing large volumes of customer feedback and identifying potential churners is time-consuming and prone to human error. Predictix addresses these challenges by automating both the sentiment analysis process and churn prediction, allowing businesses to respond promptly to customer needs and preferences.
 
-### Objectives
+### Objectives 🚀
 
 1. Understand customer sentiment through their feedback
 2. Build a model to classify sentiment in customer reviews
 3. Use sentiment analysis results, combined with other features, to predict customer churn
 
-### Proposed Solution
+### Proposed Solution 💡
 
 Predictix utilizes a two-step approach:
 
@@ -51,7 +59,7 @@ Predictix utilizes a two-step approach:
 
 This approach provides accurate and timely insights into customer sentiments and their likelihood of churning.
 
-## Installation
+## Installation 🛠️
 
 ### Dependencies
 
@@ -62,8 +70,7 @@ This approach provides accurate and timely insights into customer sentiments and
 - NumPy
 - Scikit-learn
 
-To install Predictix:
-```bash
+To install Predictix:```bash
 git clone https://github.com/ayudhaamari/predictix.git
 cd predictix
 pip install -r requirements.txt
@@ -134,6 +141,7 @@ This is the comparison of the performance of the model with other models used in
 
 - Dataset provided by [Florist Customer Churn](https://huggingface.co/datasets/iammkb2002/florist_customer_churn)
 - BERT implementation based on [Hugging Face Transformers](https://github.com/huggingface/transformers)
+- Download the fine-tuned model from [here](https://drive.google.com/drive/folders/1U7vDgiHhgMuuDl9noB3ESJm0yn0x2uPX?usp=sharing)
 
 ## Citation
 
