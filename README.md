@@ -130,14 +130,6 @@ This is the comparison of the performance of the model with other models:
 | LSTM           | 92%            | 92%                 | 89%           |
 | BERT           | 92%            | 94%                 | 89%           |
 
-## Contributing
-
-We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for more details.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Acknowledgements
 
 - Dataset provided by [Florist Customer Churn](https://huggingface.co/datasets/iammkb2002/florist_customer_churn)
