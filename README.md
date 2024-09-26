@@ -64,21 +64,45 @@ This approach provides accurate and timely insights into customer sentiments and
 
 To install Predictix:
 ```bash
-pip install predictix
+git clone https://github.com/ayudhaamari/predictix.git
+cd predictix
+pip install -r requirements.txt
 ```
 
 ## Getting Started
 
+For the sentiment analysis, you can use the following code:
 ```python
-from predictix import SentimentAnalyzer
+from transformers import BertTokenizer, BertForSequenceClassification
+import torch
 
-# Initialize the sentiment analyzer
-analyzer = SentimentAnalyzer()
+# Specify the directory where the model and tokenizer are saved
+model_dir = './saved_model/'
+
+# Load the tokenizer and model
+tokenizer = BertTokenizer.from_pretrained(model_dir)
+model = BertForSequenceClassification.from_pretrained(model_dir)
+
+# Set the model to evaluation mode
+model.eval()
 
 # Analyze sentiment
 feedback = "The bouquet was absolutely stunning! Fresh flowers and beautiful arrangement."
-sentiment = analyzer.predict(feedback)
+inputs = tokenizer(
+    feedback,
+    padding=True,
+    truncation=True,
+    max_length=128,
+    return_tensors='pt'
+)
 
+# Perform inference
+with torch.no_grad():
+    outputs = model(**inputs)
+    logits = outputs.logits
+    predictions = torch.argmax(logits, dim=-1)
+
+# Predict sentiment
 print(f"Sentiment: {sentiment}")
 ```
 
