@@ -55,9 +55,9 @@ This approach provides accurate and timely insights into customer sentiments and
 
 ### Dependencies
 
-- Python 3.8+
-- PyTorch 1.9+
-- Transformers 4.10+
+- Python 3.9+
+- PyTorch 2.0+
+- Transformers 4.40+
 - Pandas
 - NumPy
 - Scikit-learn
@@ -122,7 +122,7 @@ Our BERT-based model achieves:
 - Validation Accuracy: 94%
 - Test Accuracy: 89%
 
-This is the comparison of the performance of the model with other models:
+This is the comparison of the performance of the model with other models used in the project:
 
 | Model          | Train Accuracy | Validation Accuracy | Test Accuracy |
 |----------------|----------------|---------------------|---------------|
