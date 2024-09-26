@@ -109,6 +109,81 @@ with torch.no_grad():
 # Predict sentiment
 print(f"Sentiment: {sentiment}")
 ```
+For overall classification churn, you can use this following code :
+```python
+# Import resources
+import pandas as pd
+import pickle
+import torch
+import numpy as np
+from transformers import BertTokenizer, BertForSequenceClassification
+
+with open('model.pkl', 'rb') as file_1:
+    classification = pickle.load(file_1)
+
+# Sample data
+data = {
+    "customer_id": ["CUST023", "CUST024"],
+    "tenure": [17, 5],
+    "monthly_charges": [2800000, 3400000],
+    "total_charges": [47600000, 17000000],
+    "contract": ["one year", "month-to-month"],
+    "payment_method": ["mailed check", "electronic check"],
+    "feedback": ["Reliable and affordable", "Delivery issues multiple times"],
+    "topic":["product quality","delivery issues"]
+}
+
+# Specify the directory where the model and tokenizer are saved
+model_dir = './saved_model/'
+
+# Load the tokenizer and model
+tokenizer = BertTokenizer.from_pretrained(model_dir)
+model = BertForSequenceClassification.from_pretrained(model_dir)
+
+# Set the model to evaluation mode
+model.eval()
+
+# Move the model to the appropriate device
+device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+model.to(device)
+
+# Tokenize and encode the texts
+inputs = tokenizer(
+    data['feedback'],
+    padding=True,
+    truncation=True,
+    max_length=128,
+    return_tensors='pt'
+)
+
+# Move inputs to the same device as the model
+inputs = {key: val.to(device) for key, val in inputs.items()}
+
+# Perform inference
+with torch.no_grad():
+    outputs = model(**inputs)
+    logits = outputs.logits
+    predictions = torch.argmax(logits, dim=-1)
+
+
+# Map predictions to labels
+label_map = {0: 'Negative', 1: 'Positive'}
+predicted_labels = [label_map[pred.item()] for pred in predictions]
+
+# Print the results
+for i, (text, label) in enumerate(zip(data['feedback'], predicted_labels)):
+    print(f"Text: {text}\nPredicted Sentiment: {label}\n")
+
+# Concatenate the sentiment labels into a single column
+data['sentiment'] = predicted_labels
+
+# Change Datatype to Dataframe
+data = pd.DataFrame(data)
+
+# Do prediction
+prediction = classification.predict(data)
+prediction 
+```
 
 ## Model Architecture
 
@@ -147,7 +222,7 @@ This is the comparison of the performance of the model with other models used in
 | LSTM           | 92%            | 92%                 | 89%           |
 | BERT           | 92%            | 94%                 | 89%           |
 
-Our fine-tune SVC model achives:
+Our fine-tune SVC model achieves:
 - Training Recall : 93%
 - Test Recall : 89%
 
